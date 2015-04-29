@@ -441,7 +441,9 @@
     <parameter key="assetic.value_supplier.class">Symfony\Bundle\AsseticBundle\DefaultValueSupplier</parameter>
     <parameter key="assetic.node.paths" type="collection"/>
     <parameter key="assetic.cache_dir">/Applications/XAMPP/xamppfiles/htdocs/CR/app/cache/dev/assetic</parameter>
-    <parameter key="assetic.bundles" type="collection"/>
+    <parameter key="assetic.bundles" type="collection">
+      <parameter>CRGSBRBundle</parameter>
+    </parameter>
     <parameter key="assetic.twig_extension.class">Symfony\Bundle\AsseticBundle\Twig\AsseticExtension</parameter>
     <parameter key="assetic.twig_formula_loader.class">Assetic\Extension\Twig\TwigFormulaLoader</parameter>
     <parameter key="assetic.helper.dynamic.class">Symfony\Bundle\AsseticBundle\Templating\DynamicAsseticHelper</parameter>
@@ -2491,7 +2493,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5540c3ce0f306</argument>
+            <argument>5540e0a7204b3</argument>
           </service>
         </argument>
         <argument type="service">
@@ -2673,7 +2675,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>5540c3ce0f306</argument>
+            <argument>5540e0a7204b3</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2954,7 +2956,9 @@
             <argument type="service" id="templating.name_parser"/>
             <argument>true</argument>
             <argument type="collection"/>
-            <argument type="collection"/>
+            <argument type="collection">
+              <argument>CRGSBRBundle</argument>
+            </argument>
             <argument type="service">
               <service class="Symfony\Bundle\AsseticBundle\DefaultValueSupplier" public="false">
                 <argument type="service" id="service_container"/>
@@ -3057,6 +3061,11 @@
     <service id="assetic.asset_manager" class="Assetic\Factory\LazyAssetManager">
       <argument type="service" id="assetic.asset_factory"/>
       <argument type="collection">
+        <argument key="config" type="service">
+          <service class="Symfony\Bundle\AsseticBundle\Factory\Loader\ConfigurationLoader" public="false">
+            <tag name="assetic.formula_loader" alias="config"/>
+          </service>
+        </argument>
         <argument key="twig" type="service">
           <service class="Assetic\Factory\Loader\CachedFormulaLoader" public="false">
             <tag name="assetic.formula_loader" alias="twig"/>
@@ -3078,6 +3087,112 @@
           </service>
         </argument>
       </argument>
+      <call method="addResource">
+        <argument type="service">
+          <service class="Symfony\Bundle\AsseticBundle\Factory\Resource\ConfigurationResource" public="false">
+            <tag name="assetic.formula_resource" loader="config"/>
+            <argument type="collection">
+              <argument key="bootstrap_js" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/js/bootstrap.js</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection"/>
+              </argument>
+              <argument key="bootstrap_css" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/css/bootstrap.css</argument>
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/css/style.css</argument>
+                </argument>
+                <argument type="collection">
+                  <argument>cssrewrite</argument>
+                </argument>
+                <argument type="collection"/>
+              </argument>
+              <argument key="style_css" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/css/styles.css</argument>
+                </argument>
+                <argument type="collection">
+                  <argument>cssrewrite</argument>
+                </argument>
+                <argument type="collection"/>
+              </argument>
+              <argument key="bootstrap_glyphicons_ttf" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection">
+                  <argument key="output">fonts/glyphicons-halflings-regular.ttf</argument>
+                </argument>
+              </argument>
+              <argument key="bootstrap_glyphicons_eot" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/fonts/glyphicons-halflings-regular.eot</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection">
+                  <argument key="output">fonts/glyphicons-halflings-regular.eot</argument>
+                </argument>
+              </argument>
+              <argument key="bootstrap_glyphicons_svg" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/fonts/glyphicons-halflings-regular.svg</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection">
+                  <argument key="output">fonts/glyphicons-halflings-regular.svg</argument>
+                </argument>
+              </argument>
+              <argument key="bootstrap_glyphicons_woff" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/fonts/glyphicons-halflings-regular.woff</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection">
+                  <argument key="output">fonts/glyphicons-halflings-regular.woff</argument>
+                </argument>
+              </argument>
+              <argument key="jquery" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/components/jquery/jquery.js</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection"/>
+              </argument>
+            </argument>
+          </service>
+        </argument>
+        <argument>config</argument>
+      </call>
+      <call method="addResource">
+        <argument type="service">
+          <service class="Symfony\Bundle\AsseticBundle\Factory\Resource\CoalescingDirectoryResource" public="false">
+            <tag name="assetic.templating.twig"/>
+            <tag name="assetic.formula_resource" loader="twig"/>
+            <argument type="collection">
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
+                  <argument>CRGSBRBundle</argument>
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/Resources/CRGSBRBundle/views</argument>
+                  <argument>/\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
+                  <argument>CRGSBRBundle</argument>
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Resources/views</argument>
+                  <argument>/\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+            </argument>
+          </service>
+        </argument>
+        <argument>twig</argument>
+      </call>
       <call method="addResource">
         <argument type="service">
           <service class="Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource" public="false">

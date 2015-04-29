@@ -11,11 +11,9 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
 
         $this->blocks = array(
             'title' => array($this, 'block_title'),
-            'stylesheets' => array($this, 'block_stylesheets'),
             'menu' => array($this, 'block_menu'),
             'body' => array($this, 'block_body'),
             'bloc1' => array($this, 'block_bloc1'),
-            'javascripts' => array($this, 'block_javascripts'),
         );
     }
 
@@ -34,8 +32,24 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
 
         ";
         // line 8
-        $this->displayBlock('stylesheets', $context, $blocks);
-        // line 12
+        if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
+            // asset "fddb9b6_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_fddb9b6_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/css/fddb9b6_part_1.css");
+            // line 9
+            echo "        <link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\"/>
+        ";
+        } else {
+            // asset "fddb9b6"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_fddb9b6") : $this->env->getExtension('assets')->getAssetUrl("_controller/css/fddb9b6.css");
+            echo "        <link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\"/>
+        ";
+        }
+        unset($context["asset_url"]);
+        // line 11
         echo "
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,34 +58,34 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
     </head>
     <body>
         ";
-        // line 19
+        // line 18
         $this->displayBlock('menu', $context, $blocks);
-        // line 21
+        // line 20
         echo "        <div class=\"container\">
             <div id=\"header\" class=\"jumbotron\">
                 <img id=\"logo\" class=\"img-responsive\" src=\"";
-        // line 23
+        // line 22
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/gsbrbundle/images/logo.png"), "html", null, true);
         echo "\" alt=\"Logo\"/>
                 <h1>GSB - Report</h1>
                 <p>Gestion des rapports de visites</p>
             </div>
             ";
-        // line 27
+        // line 26
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session", array()), "flashbag", array()), "all", array()));
         foreach ($context['_seq'] as $context["label"] => $context["flashes"]) {
-            // line 28
+            // line 27
             echo "                ";
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($context["flashes"]);
             foreach ($context['_seq'] as $context["_key"] => $context["flash"]) {
-                // line 29
+                // line 28
                 echo "                    <div class=\"alert alert-";
                 echo twig_escape_filter($this->env, $context["label"], "html", null, true);
                 echo " alert-dismissible fade in\" role=\"alert\">
                         ";
-                // line 30
+                // line 29
                 echo twig_escape_filter($this->env, $context["flash"], "html", null, true);
                 echo "
                         <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
@@ -83,29 +97,51 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['flash'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 36
+            // line 35
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['label'], $context['flashes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 37
+        // line 36
         echo "            ";
         $this->displayBlock('body', $context, $blocks);
-        // line 41
+        // line 40
         echo "            <hr>
         </div>
         <footer class=\"text-center\">
             <p>Galaxy Swiss Bourdin © ";
-        // line 44
+        // line 43
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " and beyond.</p>
         </footer>
     </div>
     ";
-        // line 47
-        $this->displayBlock('javascripts', $context, $blocks);
-        // line 51
+        // line 46
+        if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
+            // asset "a56fa94_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_a56fa94_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/a56fa94_part_1.js");
+            // line 47
+            echo "    <script type=\"text/javascript\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\"></script>
+    ";
+            // asset "a56fa94_1"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_a56fa94_1") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/a56fa94_part_2.js");
+            echo "    <script type=\"text/javascript\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\"></script>
+    ";
+        } else {
+            // asset "a56fa94"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_a56fa94") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/a56fa94.js");
+            echo "    <script type=\"text/javascript\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\"></script>
+    ";
+        }
+        unset($context["asset_url"]);
+        // line 49
         echo "</body>
 </html>";
     }
@@ -116,49 +152,28 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
         echo "GSB - CR";
     }
 
-    // line 8
-    public function block_stylesheets($context, array $blocks = array())
-    {
-        // line 9
-        echo "            <link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\">
-            <link rel=\"stylesheet\" href=\"";
-        // line 10
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/gsbrbundle/css/styles.css"), "html", null, true);
-        echo "\" type=\"text/css\" >
-        ";
-    }
-
-    // line 19
+    // line 18
     public function block_menu($context, array $blocks = array())
     {
-        // line 20
+        // line 19
         echo "        ";
     }
 
-    // line 37
+    // line 36
     public function block_body($context, array $blocks = array())
     {
-        // line 38
+        // line 37
         echo "                ";
         $this->displayBlock('bloc1', $context, $blocks);
-        // line 40
+        // line 39
         echo "            ";
     }
 
-    // line 38
+    // line 37
     public function block_bloc1($context, array $blocks = array())
     {
-        // line 39
+        // line 38
         echo "                ";
-    }
-
-    // line 47
-    public function block_javascripts($context, array $blocks = array())
-    {
-        // line 48
-        echo "        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
-        <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>
-    ";
     }
 
     public function getTemplateName()
@@ -173,6 +188,6 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
 
     public function getDebugInfo()
     {
-        return array (  159 => 48,  156 => 47,  152 => 39,  149 => 38,  145 => 40,  142 => 38,  139 => 37,  135 => 20,  132 => 19,  126 => 10,  123 => 9,  120 => 8,  114 => 6,  109 => 51,  107 => 47,  101 => 44,  96 => 41,  93 => 37,  87 => 36,  75 => 30,  70 => 29,  65 => 28,  61 => 27,  54 => 23,  50 => 21,  48 => 19,  39 => 12,  37 => 8,  32 => 6,  25 => 1,);
+        return array (  176 => 38,  173 => 37,  169 => 39,  166 => 37,  163 => 36,  159 => 19,  156 => 18,  150 => 6,  145 => 49,  125 => 47,  121 => 46,  115 => 43,  110 => 40,  107 => 36,  101 => 35,  89 => 29,  84 => 28,  79 => 27,  75 => 26,  68 => 22,  64 => 20,  62 => 18,  53 => 11,  39 => 9,  35 => 8,  30 => 6,  23 => 1,);
     }
 }

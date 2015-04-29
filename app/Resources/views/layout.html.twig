@@ -19,7 +19,9 @@
         {% endblock %}
         <div class="container">
             <div id="header" class="jumbotron">
-                <img id="logo" class="img-responsive" src="{{ asset('bundles/gsbrbundle/images/logo.png') }}" alt="Logo"/>
+                {% image '@CRGSBRBundle/Resources/public/images/logo.png' %}
+                    <img id="logo" class="img-responsive" src="{{ asset_url }}" alt="Logo"/>
+                {% endimage %}
                 <h1>GSB - Report</h1>
                 <p>Gestion des rapports de visites</p>
             </div>

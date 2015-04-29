@@ -18,6 +18,8 @@
     </p>
 
     {% block bloc1 %}
-        <img class="img-responsive" src="{{ asset('bundles/gsbrbundle/images/web-medecine.jpg') }}" alt="Logo">
+        {% image '@CRGSBRBundle/Resources/public/images/web-medecine.jpg' %}
+            <img class="img-responsive" src="{{ asset_url }}" alt="Logo"/>
+        {% endimage %}
     {% endblock %}
 {% endblock %}

@@ -22,6 +22,26 @@ return array (
       ),
     ),
   ),
+  '4a837c2' => 
+  array (
+    0 => 
+    array (
+      0 => '@CRGSBRBundle/Resources/public/images/logo.png',
+    ),
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+      'output' => '_controller/images/4a837c2.png',
+      'name' => '4a837c2',
+      'debug' => NULL,
+      'combine' => NULL,
+      'vars' => 
+      array (
+      ),
+    ),
+  ),
   'a56fa94' => 
   array (
     0 => 

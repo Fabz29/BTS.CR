@@ -66,10 +66,26 @@ class __TwigTemplate_1a539783ac99ce5095a93ec74f9a9ea7f4f34dafd92257c59216663926b
     public function block_bloc1($context, array $blocks = array())
     {
         // line 21
-        echo "        <img class=\"img-responsive\" src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/gsbrbundle/images/web-medecine.jpg"), "html", null, true);
-        echo "\" alt=\"Logo\">
-    ";
+        echo "        ";
+        if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
+            // asset "5cb626c_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_5cb626c_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/images/5cb626c_web-medecine_1.jpg");
+            // line 22
+            echo "            <img class=\"img-responsive\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\" alt=\"Logo\"/>
+        ";
+        } else {
+            // asset "5cb626c"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_5cb626c") : $this->env->getExtension('assets')->getAssetUrl("_controller/images/5cb626c.jpg");
+            echo "            <img class=\"img-responsive\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\" alt=\"Logo\"/>
+        ";
+        }
+        unset($context["asset_url"]);
+        // line 24
+        echo "    ";
     }
 
     public function getTemplateName()
@@ -84,6 +100,6 @@ class __TwigTemplate_1a539783ac99ce5095a93ec74f9a9ea7f4f34dafd92257c59216663926b
 
     public function getDebugInfo()
     {
-        return array (  69 => 21,  63 => 20,  52 => 11,  49 => 10,  44 => 8,  41 => 7,  34 => 4,  31 => 3,  11 => 1,);
+        return array (  88 => 24,  74 => 22,  69 => 21,  63 => 20,  52 => 11,  49 => 10,  44 => 8,  41 => 7,  34 => 4,  31 => 3,  11 => 1,);
     }
 }

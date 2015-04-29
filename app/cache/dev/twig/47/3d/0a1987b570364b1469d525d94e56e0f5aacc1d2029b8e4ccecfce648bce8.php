@@ -63,29 +63,45 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
         // line 20
         echo "        <div class=\"container\">
             <div id=\"header\" class=\"jumbotron\">
-                <img id=\"logo\" class=\"img-responsive\" src=\"";
+                ";
         // line 22
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/gsbrbundle/images/logo.png"), "html", null, true);
-        echo "\" alt=\"Logo\"/>
-                <h1>GSB - Report</h1>
+        if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
+            // asset "4a837c2_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_4a837c2_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/images/4a837c2_logo_1.png");
+            // line 23
+            echo "                    <img id=\"logo\" class=\"img-responsive\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\" alt=\"Logo\"/>
+                ";
+        } else {
+            // asset "4a837c2"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_4a837c2") : $this->env->getExtension('assets')->getAssetUrl("_controller/images/4a837c2.png");
+            echo "                    <img id=\"logo\" class=\"img-responsive\" src=\"";
+            echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
+            echo "\" alt=\"Logo\"/>
+                ";
+        }
+        unset($context["asset_url"]);
+        // line 25
+        echo "                <h1>GSB - Report</h1>
                 <p>Gestion des rapports de visites</p>
             </div>
             ";
-        // line 26
+        // line 28
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session", array()), "flashbag", array()), "all", array()));
         foreach ($context['_seq'] as $context["label"] => $context["flashes"]) {
-            // line 27
+            // line 29
             echo "                ";
             $context['_parent'] = (array) $context;
             $context['_seq'] = twig_ensure_traversable($context["flashes"]);
             foreach ($context['_seq'] as $context["_key"] => $context["flash"]) {
-                // line 28
+                // line 30
                 echo "                    <div class=\"alert alert-";
                 echo twig_escape_filter($this->env, $context["label"], "html", null, true);
                 echo " alert-dismissible fade in\" role=\"alert\">
                         ";
-                // line 29
+                // line 31
                 echo twig_escape_filter($this->env, $context["flash"], "html", null, true);
                 echo "
                         <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">
@@ -97,31 +113,31 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['flash'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 35
+            // line 37
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['label'], $context['flashes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 36
+        // line 38
         echo "            ";
         $this->displayBlock('body', $context, $blocks);
-        // line 40
+        // line 42
         echo "            <hr>
         </div>
         <footer class=\"text-center\">
             <p>Galaxy Swiss Bourdin © ";
-        // line 43
+        // line 45
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " and beyond.</p>
         </footer>
     </div>
     ";
-        // line 46
+        // line 48
         if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
             // asset "a56fa94_0"
             $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_a56fa94_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/a56fa94_part_1.js");
-            // line 47
+            // line 49
             echo "    <script type=\"text/javascript\" src=\"";
             echo twig_escape_filter($this->env, (isset($context["asset_url"]) ? $context["asset_url"] : $this->getContext($context, "asset_url")), "html", null, true);
             echo "\"></script>
@@ -141,7 +157,7 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
     ";
         }
         unset($context["asset_url"]);
-        // line 49
+        // line 51
         echo "</body>
 </html>";
     }
@@ -159,20 +175,20 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
         echo "        ";
     }
 
-    // line 36
+    // line 38
     public function block_body($context, array $blocks = array())
     {
-        // line 37
+        // line 39
         echo "                ";
         $this->displayBlock('bloc1', $context, $blocks);
-        // line 39
+        // line 41
         echo "            ";
     }
 
-    // line 37
+    // line 39
     public function block_bloc1($context, array $blocks = array())
     {
-        // line 38
+        // line 40
         echo "                ";
     }
 
@@ -188,6 +204,6 @@ class __TwigTemplate_473d0a1987b570364b1469d525d94e56e0f5aacc1d2029b8e4ccecfce64
 
     public function getDebugInfo()
     {
-        return array (  176 => 38,  173 => 37,  169 => 39,  166 => 37,  163 => 36,  159 => 19,  156 => 18,  150 => 6,  145 => 49,  125 => 47,  121 => 46,  115 => 43,  110 => 40,  107 => 36,  101 => 35,  89 => 29,  84 => 28,  79 => 27,  75 => 26,  68 => 22,  64 => 20,  62 => 18,  53 => 11,  39 => 9,  35 => 8,  30 => 6,  23 => 1,);
+        return array (  192 => 40,  189 => 39,  185 => 41,  182 => 39,  179 => 38,  175 => 19,  172 => 18,  166 => 6,  161 => 51,  141 => 49,  137 => 48,  131 => 45,  126 => 42,  123 => 38,  117 => 37,  105 => 31,  100 => 30,  95 => 29,  91 => 28,  86 => 25,  72 => 23,  68 => 22,  64 => 20,  62 => 18,  53 => 11,  39 => 9,  35 => 8,  30 => 6,  23 => 1,);
     }
 }

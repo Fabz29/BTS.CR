@@ -1,0 +1,100 @@
+{% extends "CRGSBRBundle:Home:accueil.html.twig" %}
+
+{% block title %}
+    Rechercher des praticiens
+{% endblock %}
+
+
+
+
+{% block body %}
+    {% if avance == false %}
+        <ul class="nav nav-tabs nav-justified">
+            <li role="presentation" class="active"><a href="{{ path('crgsbr_praticien_rechercher')}}">Simple</a></li>
+            <li role="presentation"><a href="{{ path('crgsbr_praticien_rechercher_avance')}}">Avancé</a></li>
+        </ul>
+
+        <br>
+
+        <h3 class="text-center">Recherche de praticiens</h3>
+        <hr>
+
+        <form method="POST" action="{{ path('crgsbr_praticien_resultat')}}" class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Famille</label>
+                <div class="col-sm-6">
+                    <select class="form-control" id="idTypeMedecin" name="idTypeMedecin">
+                        {% for t in mesTypes %}
+                            <option value="{{ t.getId }}"> {{ t.getLibelleType }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Rechercher</button>
+            </div>
+        </form>
+
+    {% elseif avance == true %}
+        <ul class="nav nav-tabs nav-justified">
+            <li role="presentation"><a href="{{ path('crgsbr_praticien_rechercher')}}">Simple</a></li>
+            <li role="presentation" class="active"><a href="{{ path('crgsbr_praticien_rechercher_avance')}}">Avancé</a></li>
+        </ul>
+
+        <br>
+
+        <h3 class="text-center">Recherche affinée de praticiens</h3>
+        <hr>
+
+        <form method="POST" action="{{ path('crgsbr_praticien_resultat_avance')}}" class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Nom</label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="nomMedecin" name="nomMedecin" autofocus>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Ville</label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="nomVille" name="nomVille" >
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Rechercher</button>
+            </div>
+        </form>
+    {% endif %}
+
+    <br>
+    <br>
+
+    {% block bloc1 %}
+        {% if mesResultats is defined %}
+            <h3 class="text-center">Résultats de la recherche</h3>
+
+            <hr> 
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Ville</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+
+
+                {% for r in mesResultats %}
+                    <tr>
+                        <td class="text-primary"> <strong> {{ r.getNomMedecin }} </strong> </td>
+                        <td> {{ r.getPrenomMedecin }}</td>
+                        <td> {{ r.getVilleMedecin }}</td>
+                        <td> {{ r.getTypeMedecin.getLibelleType }}</td>                    
+                    </tr>
+                {% endfor %}
+
+            </table>
+        {% endif %}
+    {% endblock %}
+{% endblock %}

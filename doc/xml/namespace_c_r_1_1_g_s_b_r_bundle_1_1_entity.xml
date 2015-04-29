@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity" kind="namespace" language="PHP">
+    <compoundname>CR::GSBRBundle::Entity</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille" prot="public">CR::GSBRBundle::Entity::famille</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_repository" prot="public">CR::GSBRBundle::Entity::familleRepository</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament" prot="public">CR::GSBRBundle::Entity::medicament</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_repository" prot="public">CR::GSBRBundle::Entity::medicamentRepository</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien" prot="public">CR::GSBRBundle::Entity::praticien</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_repository" prot="public">CR::GSBRBundle::Entity::praticienRepository</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" prot="public">CR::GSBRBundle::Entity::rapportVisite</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_repository" prot="public">CR::GSBRBundle::Entity::rapportVisiteRepository</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien" prot="public">CR::GSBRBundle::Entity::typePraticien</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_repository" prot="public">CR::GSBRBundle::Entity::typePraticienRepository</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" prot="public">CR::GSBRBundle::Entity::visiteur</innerclass>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_repository" prot="public">CR::GSBRBundle::Entity::visiteurRepository</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="3" column="1"/>
+  </compounddef>
+</doxygen>

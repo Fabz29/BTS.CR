@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::DependencyInjection::CRGSBRExtension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Extension</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension_1a9e89ba4c9793088dc3050305084f79a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>load</definition>
+        <argsstring>(array $configs, ContainerBuilder $container)</argsstring>
+        <name>load</name>
+        <param>
+          <type>array</type>
+          <declname>$configs</declname>
+        </param>
+        <param>
+          <type>ContainerBuilder</type>
+          <declname>$container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{} </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/CRGSBRExtension.php" line="20" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/CRGSBRExtension.php" bodystart="20" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the class that loads and manages your bundle configuration</para><para>To learn more see <ref refid="" kindref="compound">http://symfony.com/doc/current/cookbook/bundles/extension.html</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>Extension</label>
+      </node>
+      <node id="8">
+        <label>CRGSBRExtension</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Extension</label>
+      </node>
+      <node id="10">
+        <label>CRGSBRExtension</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/CRGSBRExtension.php" line="16" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/CRGSBRExtension.php" bodystart="15" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension_1a9e89ba4c9793088dc3050305084f79a2" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::DependencyInjection::CRGSBRExtension</scope><name>load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="rapport_visite_8php" kind="file" language="PHP">
+    <compoundname>rapportVisite.php</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" prot="public">CR::GSBRBundle::Entity::rapportVisite</innerclass>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity">CR::GSBRBundle::Entity</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_validator_1_1_context_1_1_execution_context_interface">Symfony::Component::Validator::Context::ExecutionContextInterface</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity" kindref="compound">CR\GSBRBundle\Entity</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/>Doctrine\ORM\Mapping<sp/>as<sp/>ORM;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_validator_1_1_context_1_1_execution_context_interface" kindref="compound">Symfony\Component\Validator\Context\ExecutionContextInterface</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Symfony\Component\Validator\Constraints<sp/>as<sp/>Assert;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$id;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$dateRapport;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$bilan;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$motif;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$visiteur;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>$medecin;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a12251d0c022e9e21c137a105ff683f13" kindref="member">getId</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;id;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a4b23bf7af42bafeb96e53383b57a18a4" kindref="member">setDateRapport</ref>($dateRapport)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;dateRapport<sp/>=<sp/>$dateRapport;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a3f155d8d75ea430f0f500b71cdedf61f" kindref="member">getDateRapport</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;dateRapport;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac5cc736e95bae0b51f75fc766cc2e22a" kindref="member">setBilan</ref>($bilan)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;bilan<sp/>=<sp/>$bilan;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ace0d83bf5564aa34cd8041d3dbd8857e" kindref="member">getBilan</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;bilan;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a76bc256fa2c5eaebbacc0bc1a1f903e9" kindref="member">setMotif</ref>($motif)<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;motif<sp/>=<sp/>$motif;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a085fa884d73ecb3b63ee037e8d7ffb25" kindref="member">getMotif</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;motif;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a090aabec3babd8d533c6c3ef5f5843f9" kindref="member">setVisiteur</ref>(\<ref refid="namespace_c_r" kindref="compound">CR</ref>\GSBRBundle\Entity\<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" kindref="compound">visiteur</ref><sp/>$visiteur<sp/>=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" kindref="compound">visiteur</ref><sp/>=<sp/>$visiteur;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a6f3715343eb260691c71380997c1811f" kindref="member">getVisiteur</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;visiteur;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac559ed8dbb5617e214d51854429547a1" kindref="member">setMedecin</ref>(\<ref refid="namespace_c_r" kindref="compound">CR</ref>\GSBRBundle\Entity\<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien" kindref="compound">praticien</ref><sp/>$medecin<sp/>=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;medecin<sp/>=<sp/>$medecin;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a665d645b5e287f2ea898cfd86c4fdfdb" kindref="member">getMedecin</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;medecin;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>__construct()<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;dateRapport<sp/>=<sp/>new<sp/>\Datetime();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a559e304120dc0c710f57e8cc08a8d6e4" kindref="member">isMotifValid</ref>(ExecutionContextInterface<sp/>$context)<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$forbiddenWords<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;pute&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;putain&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;merde&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;con&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;crétin&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;enculé&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>On<sp/>vérifie<sp/>que<sp/>le<sp/>contenu<sp/>ne<sp/>contient<sp/>pas<sp/>l&apos;un<sp/>des<sp/>mots</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(preg_match(</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal"><sp/>.<sp/>implode(</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">,<sp/>$forbiddenWords)<sp/>.<sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">,<sp/>$this-&gt;<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a085fa884d73ecb3b63ee037e8d7ffb25" kindref="member">getMotif</ref>()))<sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>La<sp/>règle<sp/>est<sp/>violée,<sp/>on<sp/>définit<sp/>l&apos;erreur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$context</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;buildViolation(</highlight><highlight class="stringliteral">&apos;Contenu<sp/>invalide<sp/>car<sp/>il<sp/>contient<sp/>un<sp/>mot<sp/>interdit.&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;atPath(</highlight><highlight class="stringliteral">&apos;motif&apos;</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>attribut<sp/>de<sp/>l&apos;objet<sp/>qui<sp/>est<sp/>violé</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;addViolation()<sp/></highlight><highlight class="comment">//<sp/>ceci<sp/>déclenche<sp/>l&apos;erreur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ab1cc80762481e5e25dd5591964430ab3" kindref="member">isBilanValid</ref>(ExecutionContextInterface<sp/>$context)<sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$forbiddenWords<sp/>=<sp/>array(</highlight><highlight class="stringliteral">&apos;pute&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;putain&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;merde&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;con&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;crétin&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;enculé&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>On<sp/>vérifie<sp/>que<sp/>le<sp/>contenu<sp/>ne<sp/>contient<sp/>pas<sp/>l&apos;un<sp/>des<sp/>mots</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(preg_match(</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal"><sp/>.<sp/>implode(</highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">,<sp/>$forbiddenWords)<sp/>.<sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">,<sp/>$this-&gt;<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ace0d83bf5564aa34cd8041d3dbd8857e" kindref="member">getBilan</ref>()))<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>La<sp/>règle<sp/>est<sp/>violée,<sp/>on<sp/>définit<sp/>l&apos;erreur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$context</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;buildViolation(</highlight><highlight class="stringliteral">&apos;Contenu<sp/>invalide<sp/>car<sp/>il<sp/>contient<sp/>un<sp/>mot<sp/>interdit.&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//<sp/>message<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>attribut<sp/>de<sp/>l&apos;objet<sp/>qui<sp/>est<sp/>violé</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;atPath(</highlight><highlight class="stringliteral">&apos;bilan&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;addViolation()<sp/></highlight><highlight class="comment">//<sp/>ceci<sp/>déclenche<sp/>l&apos;erreur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php"/>
+  </compounddef>
+</doxygen>

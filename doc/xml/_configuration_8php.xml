@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_configuration_8php" kind="file" language="PHP">
+    <compoundname>Configuration.php</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration" prot="public">CR::GSBRBundle::DependencyInjection::Configuration</innerclass>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection">CR::GSBRBundle::DependencyInjection</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_builder_1_1_tree_builder">Symfony::Component::Config::Definition::Builder::TreeBuilder</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_configuration_interface">Symfony::Component::Config::Definition::ConfigurationInterface</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection" kindref="compound">CR\GSBRBundle\DependencyInjection</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_builder_1_1_tree_builder" kindref="compound">Symfony\Component\Config\Definition\Builder\TreeBuilder</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_configuration_interface" kindref="compound">Symfony\Component\Config\Definition\ConfigurationInterface</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration" kindref="compound">Configuration</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>ConfigurationInterface</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration_1ae03f0be384bdd90669c1872f4eb95aff" kindref="member">getConfigTreeBuilder</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$treeBuilder<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TreeBuilder();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$rootNode<sp/>=<sp/>$treeBuilder-&gt;root(</highlight><highlight class="stringliteral">&apos;crgsbr&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Here<sp/>you<sp/>should<sp/>define<sp/>the<sp/>parameters<sp/>that<sp/>are<sp/>allowed<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>configure<sp/>your<sp/>bundle.<sp/>See<sp/>the<sp/>documentation<sp/>linked<sp/>above<sp/>for</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>more<sp/>information<sp/>on<sp/>that<sp/>topic.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$treeBuilder;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/Configuration.php"/>
+  </compounddef>
+</doxygen>

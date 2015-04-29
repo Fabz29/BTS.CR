@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Entity::visiteur</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ae97941710d863131c700f069b109991e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="26" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aea5dc44adb399f82f5f4b05257950185" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$idGSB</definition>
+        <argsstring></argsstring>
+        <name>$idGSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="33" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac72f7055f1354a72cd1dcca5d9f1e121" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$nom</definition>
+        <argsstring></argsstring>
+        <name>$nom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="41" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a79561b2ac030de600ace51879093d95c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$prenom</definition>
+        <argsstring></argsstring>
+        <name>$prenom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="49" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1afc31993e855f9631572adfedcfe6f34b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$login</definition>
+        <argsstring></argsstring>
+        <name>$login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="57" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8a65334de2f0d486a42b02ecf82fe8fb" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$mdp</definition>
+        <argsstring></argsstring>
+        <name>$mdp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="65" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a971cdcd5503215e414b86a4be7128787" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$adresse</definition>
+        <argsstring></argsstring>
+        <name>$adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="73" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a526f919ae9d3195efcec3cea9d55f443" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$cp</definition>
+        <argsstring></argsstring>
+        <name>$cp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="81" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1acc3746cfaca53a8d6942c6252b17d14f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$ville</definition>
+        <argsstring></argsstring>
+        <name>$ville</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="89" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa92ab381ad4d064e458fac47602b9c34" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$dateEmbauche</definition>
+        <argsstring></argsstring>
+        <name>$dateEmbauche</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="97" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get id</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="104" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2201812d8e699d67c5177564124f483d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setIdGSB</definition>
+        <argsstring>($idGSB)</argsstring>
+        <name>setIdGSB</name>
+        <param>
+          <declname>$idGSB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set idGSB</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$idGSB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="114" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a255464b3339242038a2624e14c92aef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getIdGSB</definition>
+        <argsstring>()</argsstring>
+        <name>getIdGSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get idGSB</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="125" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="125" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a3c162f28ffbb9c8026c0d84f722e5060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setNom</definition>
+        <argsstring>($nom)</argsstring>
+        <name>setNom</name>
+        <param>
+          <declname>$nom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set nom</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$nom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="135" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="135" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a184f2299ee4553fa0782ea87c9aed362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getNom</definition>
+        <argsstring>()</argsstring>
+        <name>getNom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get nom</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="146" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab06d96cb012bde67fdbf4f8bfdad2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPrenom</definition>
+        <argsstring>($prenom)</argsstring>
+        <name>setPrenom</name>
+        <param>
+          <declname>$prenom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set prenom</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$prenom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="156" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2a243ff78ccebcd417fd644325f44701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPrenom</definition>
+        <argsstring>()</argsstring>
+        <name>getPrenom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get prenom</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="167" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa11072e203a300f9774edd2cea830261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setUsername</definition>
+        <argsstring>($login)</argsstring>
+        <name>setUsername</name>
+        <param>
+          <declname>$login</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set login</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="177" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="177" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a81b37a3c9d639574e394f80c1138c75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUsername</definition>
+        <argsstring>()</argsstring>
+        <name>getUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get login</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="188" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="188" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab4b61e5788ec8b289a3c540cd78da9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPassword</definition>
+        <argsstring>($mdp)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <declname>$mdp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set mdp</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$mdp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="198" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a04e0957baeb7acde9c0c86556da2d43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get mdp</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="209" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a9cb89ad7e39143daa21704f565df0ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMdp</definition>
+        <argsstring>()</argsstring>
+        <name>getMdp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="213" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0c73311e0d6edc23076eebfd3a100ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setAdresse</definition>
+        <argsstring>($adresse)</argsstring>
+        <name>setAdresse</name>
+        <param>
+          <declname>$adresse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set adresse</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$adresse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="224" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1c3323aa9b0c805f3ed4aec98142d326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getAdresse</definition>
+        <argsstring>()</argsstring>
+        <name>getAdresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get adresse</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="235" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ab2f2f5a46713ef0a130b38d4cabf5a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setCp</definition>
+        <argsstring>($cp)</argsstring>
+        <name>setCp</name>
+        <param>
+          <declname>$cp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set cp</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$cp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="245" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="245" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8c5e85bc0648c9752b112794765c2fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCp</definition>
+        <argsstring>()</argsstring>
+        <name>getCp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get cp</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="256" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0b029761e53c7225a87f08cf47ad2b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setVille</definition>
+        <argsstring>($ville)</argsstring>
+        <name>setVille</name>
+        <param>
+          <declname>$ville</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set ville</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$ville</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="266" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="266" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a5fdb46906b99db60cdc126d6e3c606c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getVille</definition>
+        <argsstring>()</argsstring>
+        <name>getVille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get ville</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="277" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="277" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ad09a21c47cc96e31455ddbf1166059fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDateEmbauche</definition>
+        <argsstring>($dateEmbauche)</argsstring>
+        <name>setDateEmbauche</name>
+        <param>
+          <declname>$dateEmbauche</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set dateEmbauche</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\DateTime</parametertype>
+<parametername>$dateEmbauche</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>visiteur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="287" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="287" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aadf6aac58195a312252da453607788a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDateEmbauche</definition>
+        <argsstring>()</argsstring>
+        <name>getDateEmbauche</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get dateEmbauche</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="299" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="299" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac565b8c00fe93ce673f8237849f072a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>eraseCredentials</definition>
+        <argsstring>()</argsstring>
+        <name>eraseCredentials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="303" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="303" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa676cae5ee8d7fb6862a8724adc2660d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getRoles</definition>
+        <argsstring>()</argsstring>
+        <name>getRoles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="307" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="307" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1dfe56d2c965d451a135f3f3910a8b8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getSalt</definition>
+        <argsstring>()</argsstring>
+        <name>getSalt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="311" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="311" bodyend="313"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>visiteur</para><para>() (repositoryClass=&quot;CR\GSBRBundle\Entity\visiteurRepository&quot;) (fields=&quot;login&quot;, message=&quot;Un login similaire existe déjà.&quot;) </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>visiteur</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>UserInterface</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>visiteur</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>UserInterface</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" line="17" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/visiteur.php" bodystart="17" bodyend="315"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a971cdcd5503215e414b86a4be7128787" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$adresse</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a526f919ae9d3195efcec3cea9d55f443" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$cp</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa92ab381ad4d064e458fac47602b9c34" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$dateEmbauche</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ae97941710d863131c700f069b109991e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$id</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aea5dc44adb399f82f5f4b05257950185" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$idGSB</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1afc31993e855f9631572adfedcfe6f34b" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$login</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8a65334de2f0d486a42b02ecf82fe8fb" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$mdp</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac72f7055f1354a72cd1dcca5d9f1e121" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$nom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a79561b2ac030de600ace51879093d95c" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$prenom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1acc3746cfaca53a8d6942c6252b17d14f" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>$ville</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac565b8c00fe93ce673f8237849f072a6" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>eraseCredentials</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1c3323aa9b0c805f3ed4aec98142d326" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getAdresse</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8c5e85bc0648c9752b112794765c2fb2" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getCp</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aadf6aac58195a312252da453607788a4" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getDateEmbauche</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getId</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a255464b3339242038a2624e14c92aef0" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getIdGSB</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a9cb89ad7e39143daa21704f565df0ff5" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getMdp</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a184f2299ee4553fa0782ea87c9aed362" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getNom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a04e0957baeb7acde9c0c86556da2d43f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getPassword</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2a243ff78ccebcd417fd644325f44701" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getPrenom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa676cae5ee8d7fb6862a8724adc2660d" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getRoles</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1dfe56d2c965d451a135f3f3910a8b8d" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getSalt</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a81b37a3c9d639574e394f80c1138c75e" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getUsername</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a5fdb46906b99db60cdc126d6e3c606c0" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>getVille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0c73311e0d6edc23076eebfd3a100ef4" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setAdresse</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ab2f2f5a46713ef0a130b38d4cabf5a9c" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setCp</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ad09a21c47cc96e31455ddbf1166059fc" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setDateEmbauche</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2201812d8e699d67c5177564124f483d" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setIdGSB</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a3c162f28ffbb9c8026c0d84f722e5060" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setNom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab4b61e5788ec8b289a3c540cd78da9f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setPassword</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab06d96cb012bde67fdbf4f8bfdad2a8" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setPrenom</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa11072e203a300f9774edd2cea830261" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setUsername</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0b029761e53c7225a87f08cf47ad2b49" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::visiteur</scope><name>setVille</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

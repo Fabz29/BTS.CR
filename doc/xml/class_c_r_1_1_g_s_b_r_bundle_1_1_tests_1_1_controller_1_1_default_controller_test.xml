@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Tests::Controller::DefaultControllerTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">WebTestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test_1a0d5e64d219e7d25c074c5d022306dd9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>testIndex</definition>
+        <argsstring>()</argsstring>
+        <name>testIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller/DefaultControllerTest.php" line="9" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller/DefaultControllerTest.php" bodystart="9" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>DefaultControllerTest</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>WebTestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>DefaultControllerTest</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>WebTestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller/DefaultControllerTest.php" line="8" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller/DefaultControllerTest.php" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test_1a0d5e64d219e7d25c074c5d022306dd9f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Tests::Controller::DefaultControllerTest</scope><name>testIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

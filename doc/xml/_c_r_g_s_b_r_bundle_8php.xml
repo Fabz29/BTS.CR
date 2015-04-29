@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_c_r_g_s_b_r_bundle_8php" kind="file" language="PHP">
+    <compoundname>CRGSBRBundle.php</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_c_r_g_s_b_r_bundle" prot="public">CR::GSBRBundle::CRGSBRBundle</innerclass>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle">CR::GSBRBundle</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_bundle_1_1_bundle">Symfony::Component::HttpKernel::Bundle::Bundle</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_c_r_1_1_g_s_b_r_bundle" kindref="compound">CR\GSBRBundle</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_bundle_1_1_bundle" kindref="compound">Symfony\Component\HttpKernel\Bundle\Bundle</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_c_r_1_1_g_s_b_r_bundle_1_1_c_r_g_s_b_r_bundle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_c_r_g_s_b_r_bundle" kindref="compound">CRGSBRBundle</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Bundle</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/CRGSBRBundle.php"/>
+  </compounddef>
+</doxygen>

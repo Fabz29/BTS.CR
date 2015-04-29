@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_c_r_1_1_g_s_b_r_bundle" kind="namespace" language="PHP">
+    <compoundname>CR::GSBRBundle</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_c_r_g_s_b_r_bundle" prot="public">CR::GSBRBundle::CRGSBRBundle</innerclass>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_controller">CR::GSBRBundle::Controller</innernamespace>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection">CR::GSBRBundle::DependencyInjection</innernamespace>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity">CR::GSBRBundle::Entity</innernamespace>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1services">CR::GSBRBundle::services</innernamespace>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_tests">CR::GSBRBundle::Tests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

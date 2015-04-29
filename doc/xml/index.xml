@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration" kind="class"><name>CR::GSBRBundle::DependencyInjection::Configuration</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration_1ae03f0be384bdd90669c1872f4eb95aff" kind="function"><name>getConfigTreeBuilder</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_c_r_g_s_b_r_bundle" kind="class"><name>CR::GSBRBundle::CRGSBRBundle</name>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension" kind="class"><name>CR::GSBRBundle::DependencyInjection::CRGSBRExtension</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension_1a9e89ba4c9793088dc3050305084f79a2" kind="function"><name>load</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test" kind="class"><name>CR::GSBRBundle::Tests::Controller::DefaultControllerTest</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller_1_1_default_controller_test_1a0d5e64d219e7d25c074c5d022306dd9f" kind="function"><name>testIndex</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille" kind="class"><name>CR::GSBRBundle::Entity::famille</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a5a257a9502045cd5c7fcb351921cb46b" kind="variable"><name>$libelleFamille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a085efc4420825a298d47f48692331272" kind="function"><name>setLibelleFamille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1afad83dbe78c0283084b7d8a3e905e59e" kind="function"><name>getLibelleFamille</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_repository" kind="class"><name>CR::GSBRBundle::Entity::familleRepository</name>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_home_controller" kind="class"><name>CR::GSBRBundle::Controller::HomeController</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_home_controller_1a04f2101fe1cdc785b61219c2df753024" kind="function"><name>indexAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_home_controller_1ae29767bbd6584fd74defa4a888972c72" kind="function"><name>loginAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_home_controller_1a7afbe219d4156b67af1c76ed716103a0" kind="function"><name>profilAction</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament" kind="class"><name>CR::GSBRBundle::Entity::medicament</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a5ada548896210f857afa712197dfcb9c" kind="variable"><name>$depotLegal</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a52546627b9b898df24e6852aebb39894" kind="variable"><name>$nomCommercial</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae796205d6fdbdc705dc5b03a53a8a81e" kind="variable"><name>$composition</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9ce4da7b3cfdbd50b549e32ca799650c" kind="variable"><name>$effets</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad32d68a88128b50986701c8baf83bea4" kind="variable"><name>$contreIndication</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a7bc562b9f32d8ce029eeb20377548e10" kind="variable"><name>$prixEchantillon</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a47b3c1074fa2b61e2af60662f581a2" kind="variable"><name>$famille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a638639799a1989c5ac68cdd5e0c109" kind="function"><name>setDepotLegal</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a42ec65ea7e62656a4de900a1d105a727" kind="function"><name>getDepotLegal</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ab09c38fc078240024d346208502e2356" kind="function"><name>setNomCommercial</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a25ac56fb8d7ceb863c7551ebeaac6166" kind="function"><name>getNomCommercial</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a878d2b8ea3342526423eccd446ca3115" kind="function"><name>setComposition</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ac1fbb5f7c107966f8f1df97ec6e7aacb" kind="function"><name>getComposition</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1adde84115849de05166b9ee912edb932b" kind="function"><name>setEffets</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1aaad3ec1237b3218e540f0da854f0debf" kind="function"><name>getEffets</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad1a5ca3765d6266b5ae706eabbd1ff2b" kind="function"><name>setContreIndication</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a21cf7250d8f140d2f1800b5f3a70ab6d" kind="function"><name>getContreIndication</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a92d2143e6c469cdb6fdc38922bab2cff" kind="function"><name>setPrixEchantillon</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1abb31f3d827cae12e08c8de935d680b65" kind="function"><name>getPrixEchantillon</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a8eb50092deb32a609f779c730279f620" kind="function"><name>setFamille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a58482364aa1e470a1fda8ec8ff7d3fdf" kind="function"><name>getFamille</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller" kind="class"><name>CR::GSBRBundle::Controller::MedicamentController</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a04f2101fe1cdc785b61219c2df753024" kind="function"><name>indexAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1afc5ebc9e38bd370740b7bce95f708232" kind="function"><name>rechercheAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a815e9d79cde937c21578a068a15e888f" kind="function"><name>resultatAction</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_repository" kind="class"><name>CR::GSBRBundle::Entity::medicamentRepository</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_repository_1a73a1b0348919b6755e4f69dcc70eba64" kind="function"><name>findAll</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb" kind="class"><name>CR::GSBRBundle::services::PdoGsb</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a1552be3a092001bd250c619cf9d2b6e1" kind="variable"><name>$monPdo</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ab6c71a749c6744f50d646b4a2553b84e" kind="variable"><name>$monPdoGsb</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ac8081b766b24c3a67106613003efdbd6" kind="function"><name>__construct</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a1c6024f681d3956654622d9f28e540a2" kind="function"><name>_destruct</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a3405f494d610cddab3b7dcfb2fe80d45" kind="function"><name>getInfosVisiteur</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1aa89782786e0037745abd9c62b25ade20" kind="function"><name>getLesFraisHorsForfait</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a147b85ddcddef68c57acf34857630ba7" kind="function"><name>getNbjustificatifs</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a5792eb474723cda0a758735f5fbb791e" kind="function"><name>getLesFraisForfait</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ad0943d4cabc4e6bfd803ecab13be0e57" kind="function"><name>getLesIdFrais</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1abeb6aae3e806cd3235ebec6ae5cbe7de" kind="function"><name>majFraisForfait</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ac3bcdeeb2e7522120cec7ec068b153b3" kind="function"><name>majNbJustificatifs</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a426147406c706370eeb5d17175c33562" kind="function"><name>estPremierFraisMois</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a5bde16f5acfa92c7810433187f3e05f1" kind="function"><name>dernierMoisSaisi</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ae42a666f0c62b60a6fe35448e3600d8a" kind="function"><name>creeNouvellesLignesFrais</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a5b4ae76bd318baa9ee6d57f53b43d1d8" kind="function"><name>creeNouveauFraisHorsForfait</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a8806fa2b12726a88a04845316e7c9586" kind="function"><name>supprimerFraisHorsForfait</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a34f4b6a3081514827f3726ac49dcded3" kind="function"><name>getLesMoisDisponibles</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1af243a6fda5669151cd4d35c66bcd13a4" kind="function"><name>getLesInfosFicheFrais</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a92f294d975e98efcfa1d4c9e08a51bcc" kind="function"><name>majEtatFicheFrais</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a10f3e2899f7bd0a3c837bf6d2b480ffa" kind="function"><name>getLesFichesValidees</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1ac30e43ee3dc62720ea0fe266713182ae" kind="function"><name>estValideSuppressionFrais</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1services_1_1_pdo_gsb_1a37ab3ed998137aeaf4d581365520067e" kind="function"><name>getPdoGsb</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien" kind="class"><name>CR::GSBRBundle::Entity::praticien</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1afccb531575518118452f444bd03fdc29" kind="variable"><name>$nomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a2a9fe706c1a19f03efebfecfd98dcc97" kind="variable"><name>$prenomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a56cc1d271d6cace04c7c28037e0f7d88" kind="variable"><name>$adresseMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a3131b0d109014495997a3280290eb002" kind="variable"><name>$cpMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a58bcc96749e1dfc74fa0a84b12c2018f" kind="variable"><name>$villeMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a923704a58377297b6e98bc6bad120344" kind="variable"><name>$coefNotoriete</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a20586ef8057f673d30bd9c4f5c5d1d4a" kind="variable"><name>$typeMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a2e88b2df1f25754f2466adc624e7dbf4" kind="function"><name>setNomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a6381baa89b582e6ef525469604eec326" kind="function"><name>getNomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1abd7ad95df33517d8300f1f62b949b4eb" kind="function"><name>setPrenomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a1ccd3a04c08b44470d1450cd2d9d34f2" kind="function"><name>getPrenomMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1acfbf8a9fc8da50639b324877e85e2117" kind="function"><name>setCpMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1ab0d0bf3a25e72c39b61f8faecd638145" kind="function"><name>getCpMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1aabfbd346c381b8db3f1cea4abbf13c88" kind="function"><name>setVilleMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1af0e2e2ba566e31de8d082eae8a10ceb4" kind="function"><name>getVilleMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1aacbb78b00f8bbcfe6ffb6af40dd8b9cf" kind="function"><name>setCoefNotoriete</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1ab448aa2ade65992e8a3f3fb26ffff88a" kind="function"><name>getCoefNotoriete</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a4f2f66d591f52f890b806bb25b49736a" kind="function"><name>setTypeMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1aeac16c17238ad44baac4a1e20c6b2f99" kind="function"><name>getTypeMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a826eab932439bf39b52c51b42e5d13b5" kind="function"><name>setAdresseMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a7f6cc6303e40b90cc5811c5282509e49" kind="function"><name>getAdresseMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_1a850ba7bfaa0c820096cbc6b818e48ff5" kind="function"><name>getPrenomNom</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller" kind="class"><name>CR::GSBRBundle::Controller::PraticienController</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a04f2101fe1cdc785b61219c2df753024" kind="function"><name>indexAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1afc5ebc9e38bd370740b7bce95f708232" kind="function"><name>rechercheAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a153c9568b56ae753e7a5939f336ebf40" kind="function"><name>rechercheAvanceAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a815e9d79cde937c21578a068a15e888f" kind="function"><name>resultatAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1aef448f0868eb8382f1be0e1f6805a50a" kind="function"><name>resultat_avanceAction</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_repository" kind="class"><name>CR::GSBRBundle::Entity::praticienRepository</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien_repository_1a73a1b0348919b6755e4f69dcc70eba64" kind="function"><name>findAll</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kind="class"><name>CR::GSBRBundle::Entity::rapportVisite</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a0f3c81495481bc05ca2ec50de8363af7" kind="variable"><name>$dateRapport</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a49971c78bf8b9584cae9bed323320d7f" kind="variable"><name>$bilan</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a9d661bb962c702480235da813125328e" kind="variable"><name>$motif</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a05d6b4e7c8cfac57affb607ad79f9ba0" kind="variable"><name>$visiteur</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ad913142b81c66e5408c6cc0df2d44571" kind="variable"><name>$medecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a4b23bf7af42bafeb96e53383b57a18a4" kind="function"><name>setDateRapport</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a3f155d8d75ea430f0f500b71cdedf61f" kind="function"><name>getDateRapport</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac5cc736e95bae0b51f75fc766cc2e22a" kind="function"><name>setBilan</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ace0d83bf5564aa34cd8041d3dbd8857e" kind="function"><name>getBilan</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a76bc256fa2c5eaebbacc0bc1a1f903e9" kind="function"><name>setMotif</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a085fa884d73ecb3b63ee037e8d7ffb25" kind="function"><name>getMotif</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a090aabec3babd8d533c6c3ef5f5843f9" kind="function"><name>setVisiteur</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a6f3715343eb260691c71380997c1811f" kind="function"><name>getVisiteur</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac559ed8dbb5617e214d51854429547a1" kind="function"><name>setMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a665d645b5e287f2ea898cfd86c4fdfdb" kind="function"><name>getMedecin</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a559e304120dc0c710f57e8cc08a8d6e4" kind="function"><name>isMotifValid</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ab1cc80762481e5e25dd5591964430ab3" kind="function"><name>isBilanValid</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller" kind="class"><name>CR::GSBRBundle::Controller::RapportVisiteController</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a04f2101fe1cdc785b61219c2df753024" kind="function"><name>indexAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a41dd2ddcb78a080e06000141a52a8f21" kind="function"><name>ajouterAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a46bf5852619bffc05272889356fd7f63" kind="function"><name>supprimerAction</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a57147f9495534a299b833ef500766a79" kind="function"><name>modifierAction</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_repository" kind="class"><name>CR::GSBRBundle::Entity::rapportVisiteRepository</name>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien" kind="class"><name>CR::GSBRBundle::Entity::typePraticien</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a095c5a30626a42d77cb4b1100cca60a0" kind="variable"><name>$libelleType</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1aac5069dd44d16a213d6ff75721b030d1" kind="function"><name>setLibelleType</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a20fe83814f336334af288c1ad4c403be" kind="function"><name>getLibelleType</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_repository" kind="class"><name>CR::GSBRBundle::Entity::typePraticienRepository</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_repository_1a73a1b0348919b6755e4f69dcc70eba64" kind="function"><name>findAll</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" kind="class"><name>CR::GSBRBundle::Entity::visiteur</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ae97941710d863131c700f069b109991e" kind="variable"><name>$id</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aea5dc44adb399f82f5f4b05257950185" kind="variable"><name>$idGSB</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac72f7055f1354a72cd1dcca5d9f1e121" kind="variable"><name>$nom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a79561b2ac030de600ace51879093d95c" kind="variable"><name>$prenom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1afc31993e855f9631572adfedcfe6f34b" kind="variable"><name>$login</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8a65334de2f0d486a42b02ecf82fe8fb" kind="variable"><name>$mdp</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a971cdcd5503215e414b86a4be7128787" kind="variable"><name>$adresse</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a526f919ae9d3195efcec3cea9d55f443" kind="variable"><name>$cp</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1acc3746cfaca53a8d6942c6252b17d14f" kind="variable"><name>$ville</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa92ab381ad4d064e458fac47602b9c34" kind="variable"><name>$dateEmbauche</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a12251d0c022e9e21c137a105ff683f13" kind="function"><name>getId</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2201812d8e699d67c5177564124f483d" kind="function"><name>setIdGSB</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a255464b3339242038a2624e14c92aef0" kind="function"><name>getIdGSB</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a3c162f28ffbb9c8026c0d84f722e5060" kind="function"><name>setNom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a184f2299ee4553fa0782ea87c9aed362" kind="function"><name>getNom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab06d96cb012bde67fdbf4f8bfdad2a8" kind="function"><name>setPrenom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a2a243ff78ccebcd417fd644325f44701" kind="function"><name>getPrenom</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa11072e203a300f9774edd2cea830261" kind="function"><name>setUsername</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aab4b61e5788ec8b289a3c540cd78da9f" kind="function"><name>setPassword</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a04e0957baeb7acde9c0c86556da2d43f" kind="function"><name>getPassword</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a9cb89ad7e39143daa21704f565df0ff5" kind="function"><name>getMdp</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0c73311e0d6edc23076eebfd3a100ef4" kind="function"><name>setAdresse</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1c3323aa9b0c805f3ed4aec98142d326" kind="function"><name>getAdresse</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ab2f2f5a46713ef0a130b38d4cabf5a9c" kind="function"><name>setCp</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a8c5e85bc0648c9752b112794765c2fb2" kind="function"><name>getCp</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a0b029761e53c7225a87f08cf47ad2b49" kind="function"><name>setVille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a5fdb46906b99db60cdc126d6e3c606c0" kind="function"><name>getVille</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ad09a21c47cc96e31455ddbf1166059fc" kind="function"><name>setDateEmbauche</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aadf6aac58195a312252da453607788a4" kind="function"><name>getDateEmbauche</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1ac565b8c00fe93ce673f8237849f072a6" kind="function"><name>eraseCredentials</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1aa676cae5ee8d7fb6862a8724adc2660d" kind="function"><name>getRoles</name></member>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_1a1dfe56d2c965d451a135f3f3910a8b8d" kind="function"><name>getSalt</name></member>
+  </compound>
+  <compound refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_repository" kind="class"><name>CR::GSBRBundle::Entity::visiteurRepository</name>
+    <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur_repository_1ad2f233df3f4ce54858434a0324324fa0" kind="function"><name>findVisiteur</name></member>
+  </compound>
+  <compound refid="namespace_c_r" kind="namespace"><name>CR</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle" kind="namespace"><name>CR::GSBRBundle</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_controller" kind="namespace"><name>CR::GSBRBundle::Controller</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection" kind="namespace"><name>CR::GSBRBundle::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity" kind="namespace"><name>CR::GSBRBundle::Entity</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kind="namespace"><name>CR::GSBRBundle::Entity::rapportVisite</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1services" kind="namespace"><name>CR::GSBRBundle::services</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_tests" kind="namespace"><name>CR::GSBRBundle::Tests</name>
+  </compound>
+  <compound refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_tests_1_1_controller" kind="namespace"><name>CR::GSBRBundle::Tests::Controller</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_o_r_m_1_1_entity_repository" kind="namespace"><name>Doctrine::ORM::EntityRepository</name>
+  </compound>
+  <compound refid="namespace_p_d_o" kind="namespace"><name>PDO</name>
+  </compound>
+  <compound refid="namespacesymfony2" kind="namespace"><name>symfony2</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_bridge_1_1_doctrine_1_1_validator_1_1_constraints_1_1_unique_entity" kind="namespace"><name>Symfony::Bridge::Doctrine::Validator::Constraints::UniqueEntity</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_bundle_1_1_framework_bundle_1_1_controller_1_1_controller" kind="namespace"><name>Symfony::Bundle::FrameworkBundle::Controller::Controller</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_bundle_1_1_framework_bundle_1_1_test_1_1_web_test_case" kind="namespace"><name>Symfony::Bundle::FrameworkBundle::Test::WebTestCase</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_builder_1_1_tree_builder" kind="namespace"><name>Symfony::Component::Config::Definition::Builder::TreeBuilder</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_config_1_1_definition_1_1_configuration_interface" kind="namespace"><name>Symfony::Component::Config::Definition::ConfigurationInterface</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_config_1_1_file_locator" kind="namespace"><name>Symfony::Component::Config::FileLocator</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_container_builder" kind="namespace"><name>Symfony::Component::DependencyInjection::ContainerBuilder</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_loader" kind="namespace"><name>Symfony::Component::DependencyInjection::Loader</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_foundation_1_1_request" kind="namespace"><name>Symfony::Component::HttpFoundation::Request</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_bundle_1_1_bundle" kind="namespace"><name>Symfony::Component::HttpKernel::Bundle::Bundle</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_dependency_injection_1_1_extension" kind="namespace"><name>Symfony::Component::HttpKernel::DependencyInjection::Extension</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_exception_1_1_not_found_http_exception" kind="namespace"><name>Symfony::Component::HttpKernel::Exception::NotFoundHttpException</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_security_1_1_core_1_1_security_context" kind="namespace"><name>Symfony::Component::Security::Core::SecurityContext</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_security_1_1_core_1_1_user_1_1_user_interface" kind="namespace"><name>Symfony::Component::Security::Core::User::UserInterface</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_validator_1_1_context_1_1_execution_context_interface" kind="namespace"><name>Symfony::Component::Validator::Context::ExecutionContextInterface</name>
+  </compound>
+  <compound refid="_home_controller_8php" kind="file"><name>HomeController.php</name>
+  </compound>
+  <compound refid="_medicament_controller_8php" kind="file"><name>MedicamentController.php</name>
+  </compound>
+  <compound refid="_praticien_controller_8php" kind="file"><name>PraticienController.php</name>
+  </compound>
+  <compound refid="_rapport_visite_controller_8php" kind="file"><name>RapportVisiteController.php</name>
+  </compound>
+  <compound refid="_c_r_g_s_b_r_bundle_8php" kind="file"><name>CRGSBRBundle.php</name>
+  </compound>
+  <compound refid="_configuration_8php" kind="file"><name>Configuration.php</name>
+  </compound>
+  <compound refid="_c_r_g_s_b_r_extension_8php" kind="file"><name>CRGSBRExtension.php</name>
+  </compound>
+  <compound refid="famille_8php" kind="file"><name>famille.php</name>
+  </compound>
+  <compound refid="famille_repository_8php" kind="file"><name>familleRepository.php</name>
+  </compound>
+  <compound refid="medicament_8php" kind="file"><name>medicament.php</name>
+  </compound>
+  <compound refid="medicament_repository_8php" kind="file"><name>medicamentRepository.php</name>
+  </compound>
+  <compound refid="praticien_8php" kind="file"><name>praticien.php</name>
+  </compound>
+  <compound refid="praticien_repository_8php" kind="file"><name>praticienRepository.php</name>
+  </compound>
+  <compound refid="rapport_visite_8php" kind="file"><name>rapportVisite.php</name>
+  </compound>
+  <compound refid="rapport_visite_repository_8php" kind="file"><name>rapportVisiteRepository.php</name>
+  </compound>
+  <compound refid="type_praticien_8php" kind="file"><name>typePraticien.php</name>
+  </compound>
+  <compound refid="type_praticien_repository_8php" kind="file"><name>typePraticienRepository.php</name>
+  </compound>
+  <compound refid="visiteur_8php" kind="file"><name>visiteur.php</name>
+  </compound>
+  <compound refid="visiteur_repository_8php" kind="file"><name>visiteurRepository.php</name>
+  </compound>
+  <compound refid="_pdo_gsb_8php" kind="file"><name>PdoGsb.php</name>
+  </compound>
+  <compound refid="_default_controller_test_8php" kind="file"><name>DefaultControllerTest.php</name>
+  </compound>
+  <compound refid="dir_65b8488ddeb0c16f5c3da6fd562d83fa" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller</name>
+  </compound>
+  <compound refid="dir_5250f237c61f8e816bebafee17efc739" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller</name>
+  </compound>
+  <compound refid="dir_4c19ccea950ec168e288f80dca7428a1" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR</name>
+  </compound>
+  <compound refid="dir_59be4695109ad613e07b844d26ead2cb" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR</name>
+  </compound>
+  <compound refid="dir_c0982318b12874ed2b763465ece5f234" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection</name>
+  </compound>
+  <compound refid="dir_c90fb0d14c6c7819ff64774dca30e201" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity</name>
+  </compound>
+  <compound refid="dir_90b4fe83415ff7fd77e0427f772d6296" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle</name>
+  </compound>
+  <compound refid="dir_7d5b44e1f1028ebad312a8453712a6e4" kind="dir"><name>XAMPP/xamppfiles/htdocs</name>
+  </compound>
+  <compound refid="dir_2da95d0e489f08909902eecf4bdf26a6" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/services</name>
+  </compound>
+  <compound refid="dir_ded865089b87c255f6901390eb7bb970" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src</name>
+  </compound>
+  <compound refid="dir_e9cf457a63c970cee512b4ed9ea4cd4b" kind="dir"><name>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests</name>
+  </compound>
+  <compound refid="dir_3e9e2e94122b74ff6edb415ce9ec5a08" kind="dir"><name>XAMPP</name>
+  </compound>
+  <compound refid="dir_925f171874fb2d371852c8870f86282f" kind="dir"><name>XAMPP/xamppfiles</name>
+  </compound>
+</doxygenindex>

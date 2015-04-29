@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Entity::rapportVisite</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ae97941710d863131c700f069b109991e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="24" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a0f3c81495481bc05ca2ec50de8363af7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$dateRapport</definition>
+        <argsstring></argsstring>
+        <name>$dateRapport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="31" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a49971c78bf8b9584cae9bed323320d7f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$bilan</definition>
+        <argsstring></argsstring>
+        <name>$bilan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="38" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a9d661bb962c702480235da813125328e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$motif</definition>
+        <argsstring></argsstring>
+        <name>$motif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="45" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a05d6b4e7c8cfac57affb607ad79f9ba0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$visiteur</definition>
+        <argsstring></argsstring>
+        <name>$visiteur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="52" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ad913142b81c66e5408c6cc0df2d44571" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$medecin</definition>
+        <argsstring></argsstring>
+        <name>$medecin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="59" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get id</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="66" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a4b23bf7af42bafeb96e53383b57a18a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDateRapport</definition>
+        <argsstring>($dateRapport)</argsstring>
+        <name>setDateRapport</name>
+        <param>
+          <declname>$dateRapport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set dateRapport</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\DateTime</parametertype>
+<parametername>$dateRapport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="76" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a3f155d8d75ea430f0f500b71cdedf61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDateRapport</definition>
+        <argsstring>()</argsstring>
+        <name>getDateRapport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get dateRapport</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="87" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac5cc736e95bae0b51f75fc766cc2e22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setBilan</definition>
+        <argsstring>($bilan)</argsstring>
+        <name>setBilan</name>
+        <param>
+          <declname>$bilan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set bilan</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$bilan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="97" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ace0d83bf5564aa34cd8041d3dbd8857e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBilan</definition>
+        <argsstring>()</argsstring>
+        <name>getBilan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get bilan</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="108" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a76bc256fa2c5eaebbacc0bc1a1f903e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setMotif</definition>
+        <argsstring>($motif)</argsstring>
+        <name>setMotif</name>
+        <param>
+          <declname>$motif</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set motif</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$motif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="118" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="118" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a085fa884d73ecb3b63ee037e8d7ffb25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMotif</definition>
+        <argsstring>()</argsstring>
+        <name>getMotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get motif</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="129" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a090aabec3babd8d533c6c3ef5f5843f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setVisiteur</definition>
+        <argsstring>(\CR\GSBRBundle\Entity\visiteur $visiteur=null)</argsstring>
+        <name>setVisiteur</name>
+        <param>
+          <type>\<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1visiteur" kindref="compound">CR\GSBRBundle\Entity\visiteur</ref></type>
+          <declname>$visiteur</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set visiteur</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\CR\GSBRBundle\Entity\visiteur</parametertype>
+<parametername>$visiteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="139" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="139" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a6f3715343eb260691c71380997c1811f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getVisiteur</definition>
+        <argsstring>()</argsstring>
+        <name>getVisiteur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get visiteur</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="150" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac559ed8dbb5617e214d51854429547a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setMedecin</definition>
+        <argsstring>(\CR\GSBRBundle\Entity\praticien $medecin=null)</argsstring>
+        <name>setMedecin</name>
+        <param>
+          <type>\<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1praticien" kindref="compound">CR\GSBRBundle\Entity\praticien</ref></type>
+          <declname>$medecin</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set medecin</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\CR\GSBRBundle\Entity\praticien</parametertype>
+<parametername>$medecin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="160" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a665d645b5e287f2ea898cfd86c4fdfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMedecin</definition>
+        <argsstring>()</argsstring>
+        <name>getMedecin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get medecin</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="171" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="175" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="175" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a559e304120dc0c710f57e8cc08a8d6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isMotifValid</definition>
+        <argsstring>(ExecutionContextInterface $context)</argsstring>
+        <name>isMotifValid</name>
+        <param>
+          <type>ExecutionContextInterface</type>
+          <declname>$context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="182" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="182" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ab1cc80762481e5e25dd5591964430ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>isBilanValid</definition>
+        <argsstring>(ExecutionContextInterface $context)</argsstring>
+        <name>isBilanValid</name>
+        <param>
+          <type>ExecutionContextInterface</type>
+          <declname>$context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="199" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="199" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kindref="compound">rapportVisite</ref></para><para>() (repositoryClass=&quot;CR\GSBRBundle\Entity\rapportVisiteRepository&quot;) </para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" line="15" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/rapportVisite.php" bodystart="15" bodyend="213"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a49971c78bf8b9584cae9bed323320d7f" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$bilan</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a0f3c81495481bc05ca2ec50de8363af7" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$dateRapport</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ae97941710d863131c700f069b109991e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$id</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ad913142b81c66e5408c6cc0df2d44571" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$medecin</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a9d661bb962c702480235da813125328e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$motif</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a05d6b4e7c8cfac57affb607ad79f9ba0" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>$visiteur</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>__construct</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ace0d83bf5564aa34cd8041d3dbd8857e" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getBilan</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a3f155d8d75ea430f0f500b71cdedf61f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getDateRapport</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getId</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a665d645b5e287f2ea898cfd86c4fdfdb" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getMedecin</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a085fa884d73ecb3b63ee037e8d7ffb25" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getMotif</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a6f3715343eb260691c71380997c1811f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>getVisiteur</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ab1cc80762481e5e25dd5591964430ab3" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>isBilanValid</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a559e304120dc0c710f57e8cc08a8d6e4" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>isMotifValid</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac5cc736e95bae0b51f75fc766cc2e22a" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>setBilan</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a4b23bf7af42bafeb96e53383b57a18a4" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>setDateRapport</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1ac559ed8dbb5617e214d51854429547a1" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>setMedecin</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a76bc256fa2c5eaebbacc0bc1a1f903e9" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>setMotif</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite_1a090aabec3babd8d533c6c3ef5f5843f9" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::rapportVisite</scope><name>setVisiteur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

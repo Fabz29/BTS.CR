@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_2da95d0e489f08909902eecf4bdf26a6" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/services</compoundname>
+    <innerfile refid="_pdo_gsb_8php">PdoGsb.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/services/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_c0982318b12874ed2b763465ece5f234" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection</compoundname>
+    <innerfile refid="_configuration_8php">Configuration.php</innerfile>
+    <innerfile refid="_c_r_g_s_b_r_extension_8php">CRGSBRExtension.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/"/>
+  </compounddef>
+</doxygen>

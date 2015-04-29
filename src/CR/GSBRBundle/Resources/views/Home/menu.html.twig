@@ -1,0 +1,51 @@
+<nav id="top-nav" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a class="navbar-brand" href="{{ path('crgsbr_homepage') }}">GSB-Report</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
+                        Médicaments<span class="caret"></span></a>
+                    <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                        <li><a href="{{ path('crgsbr_medicament_consulter') }}">Consulter</a></li>
+                        <li><a href="{{ path('crgsbr_medicament_rechercher') }}">Rechercher</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
+                        Praticiens<span class="caret"></span></a>
+                    <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                        <li><a href="{{ path('crgsbr_praticien_consulter') }}">Consulter</a></li>
+                        <li><a href="{{ path('crgsbr_praticien_rechercher') }}">Rechercher</a></li>
+                    </ul>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
+                        Rapport de visite<span class="caret"></span></a>
+                    <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                        <li><a href="{{ path('crgsbr_rapportVisite_consulter', {'id': app.session.get('id')}) }}">Consulter</a></li>
+                        <li><a href="{{ path('crgsbr_rapportVisite_ajouter', {'id': app.session.get('id')}) }}">Ajouter</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
+                        <i class="glyphicon glyphicon-user"></i> {{app.user.nom ~ ' ' ~ app.user.prenom}} <span class="caret"></span></a>
+                    <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                        <li><a href="{{ path('crgsbr_profil', {'id': app.session.get('id')}) }}">Profil</a></li>
+                        <li><a href="{{ path('crgsbr_deconnexion') }}">Se déconnecter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    
+    </div><!-- /container -->
+</nav>

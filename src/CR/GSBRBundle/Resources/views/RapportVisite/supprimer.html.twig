@@ -1,0 +1,35 @@
+{% extends "CRGSBRBundle:Home:accueil.html.twig" %}
+
+{% block title %}
+    Supprimer un rapport de visite
+{% endblock %}
+
+{% block body %}
+
+    <div class="text-center">
+        <h2 >Supprimer un rapport de visite</h2>
+
+        <hr> 
+
+        <p>
+            Etes-vous certain de vouloir supprimer le rapport numéro "{{ rapportVisite.id }}" ?
+        </p>
+
+        {# On met l'id de l'annonce dans la route de l'action du formulaire #}
+        <form action="{{ path('crgsbr_rapportVisite_supprimer', {'id': rapportVisite.getId} )}}" method="post">
+
+            <br>
+
+            <a href="{{ path('crgsbr_rapportVisite_consulter', {'id': app.session.get('id')}) }}" class="btn btn-default">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Retour
+            </a>
+            {# Ici j'ai écrit le bouton de soumission à la main #}
+            <button type="submit" value="Supprimer" class="btn btn-danger">
+                <i class="glyphicon glyphicon-trash"></i> Supprimer
+            </button>
+            {# Ceci va générer le champ CSRF #}
+            {{ form_rest(form) }}
+        </form>
+    </div>
+{% endblock %}

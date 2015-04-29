@@ -1,0 +1,18 @@
+crgsbr:
+    resource: "@CRGSBRBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+    
+crgsbr_connexion:
+    pattern:   /connexion
+    defaults:  { _controller: CRGSBRBundle:Home:login }
+
+crgsbr_connexion_check:
+    pattern:   /connexion_check
+
+crgsbr_deconnexion:
+    pattern:   /deconnexion
+    

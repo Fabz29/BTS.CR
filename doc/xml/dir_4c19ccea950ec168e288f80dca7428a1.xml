@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_4c19ccea950ec168e288f80dca7428a1" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR</compoundname>
+    <innerdir refid="dir_90b4fe83415ff7fd77e0427f772d6296">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/"/>
+  </compounddef>
+</doxygen>

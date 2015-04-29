@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_5250f237c61f8e816bebafee17efc739" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller</compoundname>
+    <innerfile refid="_home_controller_8php">HomeController.php</innerfile>
+    <innerfile refid="_medicament_controller_8php">MedicamentController.php</innerfile>
+    <innerfile refid="_praticien_controller_8php">PraticienController.php</innerfile>
+    <innerfile refid="_rapport_visite_controller_8php">RapportVisiteController.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/"/>
+  </compounddef>
+</doxygen>

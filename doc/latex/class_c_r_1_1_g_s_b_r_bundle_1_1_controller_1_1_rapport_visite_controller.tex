@@ -1,0 +1,91 @@
+\section{Rapport\+Visite\+Controller Class Reference}
+\label{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller}\index{Rapport\+Visite\+Controller@{Rapport\+Visite\+Controller}}
+Inheritance diagram for Rapport\+Visite\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf index\+Action} ()
+\item 
+{\bf ajouter\+Action} (Request \$request)
+\item 
+{\bf supprimer\+Action} (\$id, Request \$request)
+\item 
+{\bf modifier\+Action} (\$id, Request \$request)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe contrôleur de consultation et de gsetion des rapports de visite 
+
+\subsection{Member Function Documentation}
+\index{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}!ajouter\+Action@{ajouter\+Action}}
+\index{ajouter\+Action@{ajouter\+Action}!C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}}
+\subsubsection[{ajouter\+Action}]{\setlength{\rightskip}{0pt plus 5cm}ajouter\+Action (
+\begin{DoxyParamCaption}
+\item[{Request}]{\$request}
+\end{DoxyParamCaption}
+)}\label{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_a41dd2ddcb78a080e06000141a52a8f21}
+Cette fonction ajoute un rapport de visite 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & La requête construite à partir de la saisie de l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+view la vue ajouter\+Rapport\+Visite.\+html.\+twig 
+\end{DoxyReturn}
+\index{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}!index\+Action@{index\+Action}}
+\index{index\+Action@{index\+Action}!C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}}
+\subsubsection[{index\+Action}]{\setlength{\rightskip}{0pt plus 5cm}index\+Action (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_a04f2101fe1cdc785b61219c2df753024}
+Cette fonction affiche la page rapport-\/de-\/visite \begin{DoxyReturn}{Returns}
+view La vue rapport\+Visite.\+html.\+twig 
+\end{DoxyReturn}
+\index{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}!modifier\+Action@{modifier\+Action}}
+\index{modifier\+Action@{modifier\+Action}!C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}}
+\subsubsection[{modifier\+Action}]{\setlength{\rightskip}{0pt plus 5cm}modifier\+Action (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{Request}]{\$request}
+\end{DoxyParamCaption}
+)}\label{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_a57147f9495534a299b833ef500766a79}
+Cette fonction modifie un rapport de visite 
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & identifiant \\
+\hline
+Request & {\em \$request} & La requête construite à partir de la saisie de l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+view modifier.\+html.\+twig La vue qui supprime le rapport de visite 
+\end{DoxyReturn}
+\index{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}!supprimer\+Action@{supprimer\+Action}}
+\index{supprimer\+Action@{supprimer\+Action}!C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller@{C\+R\+::\+G\+S\+B\+R\+Bundle\+::\+Controller\+::\+Rapport\+Visite\+Controller}}
+\subsubsection[{supprimer\+Action}]{\setlength{\rightskip}{0pt plus 5cm}supprimer\+Action (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{Request}]{\$request}
+\end{DoxyParamCaption}
+)}\label{class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_a46bf5852619bffc05272889356fd7f63}
+Cette fonction supprime un rapport de visite 
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & identifiant \\
+\hline
+Request & {\em \$request} & La requête construite à partir de la saisie de l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+view supprimer.\+html.\+twig La vue qui supprime le rapport de visite 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+X\+A\+M\+P\+P/xamppfiles/htdocs/\+C\+R/src/\+C\+R/\+G\+S\+B\+R\+Bundle/\+Controller/Rapport\+Visite\+Controller.\+php\end{DoxyCompactItemize}

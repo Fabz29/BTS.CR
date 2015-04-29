@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_symfony_1_1_bundle_1_1_framework_bundle_1_1_controller_1_1_controller" kind="namespace" language="PHP">
+    <compoundname>Symfony::Bundle::FrameworkBundle::Controller::Controller</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/HomeController.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_c_r_g_s_b_r_extension_8php" kind="file" language="PHP">
+    <compoundname>CRGSBRExtension.php</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension" prot="public">CR::GSBRBundle::DependencyInjection::CRGSBRExtension</innerclass>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection">CR::GSBRBundle::DependencyInjection</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_container_builder">Symfony::Component::DependencyInjection::ContainerBuilder</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_config_1_1_file_locator">Symfony::Component::Config::FileLocator</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_dependency_injection_1_1_extension">Symfony::Component::HttpKernel::DependencyInjection::Extension</innernamespace>
+    <innernamespace refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_loader">Symfony::Component::DependencyInjection::Loader</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection" kindref="compound">CR\GSBRBundle\DependencyInjection</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_container_builder" kindref="compound">Symfony\Component\DependencyInjection\ContainerBuilder</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_config_1_1_file_locator" kindref="compound">Symfony\Component\Config\FileLocator</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_http_kernel_1_1_dependency_injection_1_1_extension" kindref="compound">Symfony\Component\HttpKernel\DependencyInjection\Extension</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_dependency_injection_1_1_loader" kindref="compound">Symfony\Component\DependencyInjection\Loader</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension" kindref="compound">CRGSBRExtension</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Extension</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_c_r_g_s_b_r_extension_1a9e89ba4c9793088dc3050305084f79a2" kindref="member">load</ref>(array<sp/>$configs,<sp/>ContainerBuilder<sp/>$container)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$configuration<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_dependency_injection_1_1_configuration" kindref="compound">Configuration</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$config<sp/>=<sp/>$this-&gt;processConfiguration($configuration,<sp/>$configs);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$loader<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Loader\YamlFileLoader($container,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>FileLocator(__DIR__.</highlight><highlight class="stringliteral">&apos;/../Resources/config&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$loader-&gt;load(</highlight><highlight class="stringliteral">&apos;services.yml&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection/CRGSBRExtension.php"/>
+  </compounddef>
+</doxygen>

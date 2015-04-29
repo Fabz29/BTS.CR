@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_90b4fe83415ff7fd77e0427f772d6296" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle</compoundname>
+    <innerdir refid="dir_5250f237c61f8e816bebafee17efc739">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller</innerdir>
+    <innerdir refid="dir_c0982318b12874ed2b763465ece5f234">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/DependencyInjection</innerdir>
+    <innerdir refid="dir_c90fb0d14c6c7819ff64774dca30e201">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity</innerdir>
+    <innerdir refid="dir_2da95d0e489f08909902eecf4bdf26a6">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/services</innerdir>
+    <innerdir refid="dir_e9cf457a63c970cee512b4ed9ea4cd4b">XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests</innerdir>
+    <innerfile refid="_c_r_g_s_b_r_bundle_8php">CRGSBRBundle.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/"/>
+  </compounddef>
+</doxygen>

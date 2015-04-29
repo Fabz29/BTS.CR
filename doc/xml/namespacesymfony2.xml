@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespacesymfony2" kind="namespace" language="PHP">
+    <compoundname>symfony2</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contrôleur de gestion des utilisateurs</para><para>Hérite des services du contrôleur de symfony pour l&apos;application GSB-Report Fait parti du namespace CR Utilise les services de Controller, Request et SecurirtyContext</para><para><simplesect kind="author"><para>Fabien ZANETTI et Lucas SAINTIER </para></simplesect>
+<simplesect kind="version"><para>1.0 <ref refid="" kindref="compound">Contrôleur de gestion des médicaments Hérite des services du contrôleur de symfony pour l&apos;application GSB-Report Fait parti du namespace CR Utilise les services de Controller et Request  Fabien ZANETTI et Lucas SAINTIER  1.0  <ulink url="http://symfony.com/">http://symfony.com/</ulink> Contrôleur de gestion des praticiens Hérite des services du contrôleur de symfony pour l&apos;application GSB-Report Fait parti du namespace CR Utilise les services de Controller et Request  Fabien ZANETTI et Lucas SAINTIER  1.0  <ulink url="http://symfony.com/">http://symfony.com/</ulink> Contrôleur de gestion des rapports de visite Hérite des services du contrôleur de symfony pour l&apos;application GSB-Report Fait parti du namespace CR Utilise les services de Controller, Request, NotFoundHttpException  Fabien ZANETTI et Lucas SAINTIER  1.0  <ulink url="http://symfony.com/">http://symfony.com/</ulink> </ref></para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/HomeController.php" line="11" column="1"/>
+  </compounddef>
+</doxygen>

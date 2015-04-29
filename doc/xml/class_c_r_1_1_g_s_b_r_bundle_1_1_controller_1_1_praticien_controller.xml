@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Controller::PraticienController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>indexAction</definition>
+        <argsstring>()</argsstring>
+        <name>indexAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction affiche la page /praticien/ <simplesect kind="return"><para>view La vue praticien.html.twig </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="31" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1afc5ebc9e38bd370740b7bce95f708232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rechercheAction</definition>
+        <argsstring>()</argsstring>
+        <name>rechercheAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction recherche l&apos;ensemble des praticiens <simplesect kind="return"><para>view recherchePraticien.html.twig la vue de recherche de praticiens </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="44" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a153c9568b56ae753e7a5939f336ebf40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rechercheAvanceAction</definition>
+        <argsstring>()</argsstring>
+        <name>rechercheAvanceAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction recherche l&apos;ensemble des praticiens <simplesect kind="return"><para>view recherchePraticien.html.twig la vue de recherche avancée de praticiens </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="58" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="58" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a815e9d79cde937c21578a068a15e888f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resultatAction</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>resultatAction</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction retourne le résultat de la recherche de praticien</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la séléction de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view recherchePraticien.html.twig la vue avec le résultat </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="74" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="74" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1aef448f0868eb8382f1be0e1f6805a50a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resultat_avanceAction</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>resultat_avanceAction</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction retourne le résultat de la recherche avancée de praticiens</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la séléction de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view recherchePraticien.html.twig la vue avec le résultat </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="103" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="103" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe contrôleur de consultation et rechercher des praticiens </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>PraticienController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>PraticienController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" line="25" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/PraticienController.php" bodystart="25" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::PraticienController</scope><name>indexAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1afc5ebc9e38bd370740b7bce95f708232" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::PraticienController</scope><name>rechercheAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a153c9568b56ae753e7a5939f336ebf40" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::PraticienController</scope><name>rechercheAvanceAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1aef448f0868eb8382f1be0e1f6805a50a" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::PraticienController</scope><name>resultat_avanceAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_praticien_controller_1a815e9d79cde937c21578a068a15e888f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::PraticienController</scope><name>resultatAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

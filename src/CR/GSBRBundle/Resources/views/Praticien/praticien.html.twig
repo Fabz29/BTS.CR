@@ -1,0 +1,32 @@
+{% extends "CRGSBRBundle:Home:accueil.html.twig" %}
+
+{% block title %}
+    Consultation des praticiens
+{% endblock %}
+
+{% block body %}
+    <h3 class="text-center">Praticiens</h3>
+
+    <hr> 
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Ville</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+
+
+        {% for p in mesPrat %}
+            <tr>
+                <td class="text-primary"> <strong> {{ p.getNomMedecin }} </strong> </td>
+                <td> {{ p.getPrenomMedecin }}</td>
+                <td> {{ p.getVilleMedecin }}</td>
+                <td> {{ p.getTypeMedecin.getLibelleType }}</td>                    
+            </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}

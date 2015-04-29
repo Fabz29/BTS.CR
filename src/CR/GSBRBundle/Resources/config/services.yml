@@ -1,0 +1,5 @@
+parameters:
+    db.host: mysql:host=localhost
+    db.name: dbname=gsb_svg
+    db.user: root
+    db.mdp:

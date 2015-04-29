@@ -1,0 +1,59 @@
+crgsbr_homepage:
+    path:   /
+    defaults: { _controller: CRGSBRBundle:Home:index }
+
+crgsbr_profil:
+    path:   /profil
+    defaults: { _controller: CRGSBRBundle:Home:profil }
+        
+crgsbr_medicament_consulter:
+    path:     /medicament
+    defaults: { _controller: CRGSBRBundle:Medicament:index }
+    
+crgsbr_medicament_rechercher:
+    path:     /medicament/recherche
+    defaults: { _controller: CRGSBRBundle:Medicament:recherche }
+    
+crgsbr_medicament_resultat:
+    path:     /medicament/recherche/resultat
+    defaults: { _controller: CRGSBRBundle:Medicament:resultat }
+
+crgsbr_praticien_consulter:
+    path:     /praticien
+    defaults: { _controller: CRGSBRBundle:Praticien:index}
+ 
+crgsbr_praticien_rechercher:
+    path:     /praticien/recherche
+    defaults: { _controller: CRGSBRBundle:Praticien:recherche}
+
+crgsbr_praticien_resultat:
+    path:     /praticien/recherche/resultat
+    defaults: { _controller: CRGSBRBundle:Praticien:resultat}
+    
+crgsbr_praticien_rechercher_avance:
+    path:     /praticien/recherche/avance
+    defaults: { _controller: CRGSBRBundle:Praticien:rechercheAvance}
+
+crgsbr_praticien_resultat_avance:
+    path:     /praticien/resultat_avance/resultat
+    defaults: { _controller: CRGSBRBundle:Praticien:resultat_avance}
+    
+crgsbr_rapportVisite_consulter:
+    path:   /rapport-de-visite
+    defaults: { _controller: CRGSBRBundle:RapportVisite:index}
+        
+crgsbr_rapportVisite_ajouter:
+    path:   /rapport-de-visite/ajouter
+    defaults: { _controller: CRGSBRBundle:RapportVisite:ajouter}
+    
+crgsbr_rapportVisite_supprimer:
+    path:   /rapport-de-visite/supprimer-rapport-{id}
+    defaults: { _controller: CRGSBRBundle:RapportVisite:supprimer}
+    requirements:
+        id: \d+
+        
+crgsbr_rapportVisite_modifier:
+    path:   /rapport-de-visite/modifier-rapport-{id}
+    defaults: { _controller: CRGSBRBundle:RapportVisite:modifier}
+    requirements:
+        id: \d+

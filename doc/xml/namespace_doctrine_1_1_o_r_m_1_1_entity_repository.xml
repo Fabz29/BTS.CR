@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_doctrine_1_1_o_r_m_1_1_entity_repository" kind="namespace" language="PHP">
+    <compoundname>Doctrine::ORM::EntityRepository</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/familleRepository.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="_medicament_controller_8php" kind="file" language="PHP">
+    <compoundname>MedicamentController.php</compoundname>
+    <innerclass refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller" prot="public">CR::GSBRBundle::Controller::MedicamentController</innerclass>
+    <innernamespace refid="namespacesymfony2">symfony2</innernamespace>
+    <innernamespace refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_controller">CR::GSBRBundle::Controller</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_c_r_1_1_g_s_b_r_bundle_1_1_controller" kindref="compound">CR\GSBRBundle\Controller</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_bundle_1_1_framework_bundle_1_1_controller_1_1_controller" kindref="compound">Symfony\Bundle\FrameworkBundle\Controller\Controller</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">use<sp/><ref refid="namespace_symfony_1_1_component_1_1_http_foundation_1_1_request" kindref="compound">Symfony\Component\HttpFoundation\Request</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller" kindref="compound">MedicamentController</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Controller<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a04f2101fe1cdc785b61219c2df753024" kindref="member">indexAction</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lesMedicaments<sp/>=<sp/>$this-&gt;getDoctrine()-&gt;getRepository(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:medicament&apos;</highlight><highlight class="normal">)-&gt;findAll();<sp/></highlight><highlight class="comment">//<sp/>récupère<sp/>tous<sp/>les<sp/>médicaments<sp/>de<sp/>la<sp/>BDD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>retourne<sp/>la<sp/>vue<sp/>des<sp/>médicaments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;render(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:Medicament:medicament.html.twig&apos;</highlight><highlight class="normal">,<sp/>array(</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;mesMed&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$lesMedicaments,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1afc5ebc9e38bd370740b7bce95f708232" kindref="member">rechercheAction</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lesFamilles<sp/>=<sp/>$this-&gt;getDoctrine()-&gt;getRepository(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:famille&apos;</highlight><highlight class="normal">)-&gt;findAll();<sp/></highlight><highlight class="comment">//<sp/>récupère<sp/>toutes<sp/>les<sp/>familles<sp/>de<sp/>médicaments<sp/>de<sp/>la<sp/>BDD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>retourne<sp/>la<sp/>vue<sp/>de<sp/>recherche<sp/>par<sp/>famille</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;render(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:Medicament:rechercheMedicament.html.twig&apos;</highlight><highlight class="normal">,<sp/>array(</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;mesFamilles&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$lesFamilles,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a815e9d79cde937c21578a068a15e888f" kindref="member">resultatAction</ref>(Request<sp/>$request)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$famille<sp/>=<sp/>$request-&gt;request-&gt;get(</highlight><highlight class="stringliteral">&apos;idFamille&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>récupère<sp/>l&apos;id<sp/>de<sp/>la<sp/>famille<sp/>séléctionné</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$lesFamilles<sp/>=<sp/>$this-&gt;getDoctrine()-&gt;getRepository(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:famille&apos;</highlight><highlight class="normal">)-&gt;findAll();<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($request-&gt;isMethod(</highlight><highlight class="stringliteral">&apos;POST&apos;</highlight><highlight class="normal">))<sp/>{<sp/></highlight><highlight class="comment">//<sp/>vérifie<sp/>que<sp/>le<sp/>formulaire<sp/>est<sp/>valide</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$res<sp/>=<sp/>$this-&gt;getDoctrine()-&gt;getRepository(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:medicament&apos;</highlight><highlight class="normal">)-&gt;findByFamille($famille);<sp/></highlight><highlight class="comment">//<sp/>retourne<sp/>les<sp/>médicaments<sp/>par<sp/>rapport<sp/>à<sp/>la<sp/>famille<sp/>demandé</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>retourne<sp/>la<sp/>vue<sp/>avec<sp/>les<sp/>résultats<sp/>de<sp/>la<sp/>recherche</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$this-&gt;render(</highlight><highlight class="stringliteral">&apos;CRGSBRBundle:Medicament:rechercheMedicament.html.twig&apos;</highlight><highlight class="normal">,<sp/>array(</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;mesFamilles&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$lesFamilles,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;mesResultats&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$res,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php"/>
+  </compounddef>
+</doxygen>

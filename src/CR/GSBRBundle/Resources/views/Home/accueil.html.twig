@@ -1,0 +1,23 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+    Accueil | {{ parent() }}
+{% endblock %}
+
+{% block menu %}
+    {% include 'CRGSBRBundle:Home:menu.html.twig' %}
+{% endblock %}
+{% block body %}
+    <h3 class="text-center">Bienvue dans la nouvelle application de GSB</h3>
+
+    <hr>
+    <p> 
+        Cette application vous permettra de consulter et de rechercher dans la base de donnée,
+        toute information relatives à un médecin, rapport de visite et médicaments. Mais la grande nouveauté 
+        est la possibilité de noter et d'enregistrer directement depuis cette plateforme vos rapports de visites.
+    </p>
+
+    {% block bloc1 %}
+        <img class="img-responsive" src="{{ asset('bundles/gsbrbundle/images/web-medecine.jpg') }}" alt="Logo">
+    {% endblock %}
+{% endblock %}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}GSB - CR{% endblock %}</title>
+
+        {% block stylesheets %}
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+            <link rel="stylesheet" href="{{ asset('bundles/gsbrbundle/css/styles.css')}}" type="text/css" >
+        {% endblock %}
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    </head>
+    <body>
+        {% block menu %}
+        {% endblock %}
+        <div class="container">
+            <div id="header" class="jumbotron">
+                <img id="logo" class="img-responsive" src="{{ asset('bundles/gsbrbundle/images/logo.png') }}" alt="Logo"/>
+                <h1>GSB - Report</h1>
+                <p>Gestion des rapports de visites</p>
+            </div>
+            {% for label, flashes in app.session.flashbag.all %}
+                {% for flash in flashes %}
+                    <div class="alert alert-{{ label }} alert-dismissible fade in" role="alert">
+                        {{ flash }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">x</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+            {% block body %}
+                {% block bloc1 %}
+                {% endblock %}
+            {% endblock %}
+            <hr>
+        </div>
+        <footer class="text-center">
+            <p>Galaxy Swiss Bourdin © {{ 'now'|date('Y') }} and beyond.</p>
+        </footer>
+    </div>
+    {% block javascripts %}
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    {% endblock %}
+</body>
+</html>

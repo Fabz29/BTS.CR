@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Controller::MedicamentController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>indexAction</definition>
+        <argsstring>()</argsstring>
+        <name>indexAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction affiche la page /medicament/ <simplesect kind="return"><para>view Retourne la vue medicament.html.twig </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" line="31" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1afc5ebc9e38bd370740b7bce95f708232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>rechercheAction</definition>
+        <argsstring>()</argsstring>
+        <name>rechercheAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction recherche l&apos;ensemble des familles <simplesect kind="return"><para>array $lesFamilles Les familles de médicaments </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" line="45" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a815e9d79cde937c21578a068a15e888f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resultatAction</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>resultatAction</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction retourne le résultat de la recherche de médicament</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la séléction de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view rechercheMedicament.html.twig la vue avec le résultat </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>récupère toutes les familles de médicaments de la BDD </para>        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" line="60" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" bodystart="60" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe contrôleur de consultation et recherche des médicaments </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>Controller</label>
+      </node>
+      <node id="28">
+        <label>MedicamentController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>Controller</label>
+      </node>
+      <node id="30">
+        <label>MedicamentController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" line="25" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/MedicamentController.php" bodystart="25" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::MedicamentController</scope><name>indexAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1afc5ebc9e38bd370740b7bce95f708232" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::MedicamentController</scope><name>rechercheAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_medicament_controller_1a815e9d79cde937c21578a068a15e888f" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::MedicamentController</scope><name>resultatAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

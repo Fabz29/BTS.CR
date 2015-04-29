@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Entity::typePraticien</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1ae97941710d863131c700f069b109991e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="22" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a095c5a30626a42d77cb4b1100cca60a0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$libelleType</definition>
+        <argsstring></argsstring>
+        <name>$libelleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="29" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get id</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="37" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1aac5069dd44d16a213d6ff75721b030d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setLibelleType</definition>
+        <argsstring>($libelleType)</argsstring>
+        <name>setLibelleType</name>
+        <param>
+          <declname>$libelleType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set libelleType</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$libelleType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien" kindref="compound">typePraticien</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="48" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a20fe83814f336334af288c1ad4c403be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLibelleType</definition>
+        <argsstring>()</argsstring>
+        <name>getLibelleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get libelleType</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="60" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien" kindref="compound">typePraticien</ref></para><para>() (repositoryClass=&quot;CR\GSBRBundle\Entity\typePraticienRepository&quot;) </para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" line="14" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/typePraticien.php" bodystart="13" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1ae97941710d863131c700f069b109991e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::typePraticien</scope><name>$id</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a095c5a30626a42d77cb4b1100cca60a0" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::typePraticien</scope><name>$libelleType</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::typePraticien</scope><name>getId</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1a20fe83814f336334af288c1ad4c403be" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::typePraticien</scope><name>getLibelleType</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1type_praticien_1aac5069dd44d16a213d6ff75721b030d1" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::typePraticien</scope><name>setLibelleType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

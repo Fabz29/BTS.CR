@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Entity::famille</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1ae97941710d863131c700f069b109991e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="22" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a5a257a9502045cd5c7fcb351921cb46b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$libelleFamille</definition>
+        <argsstring></argsstring>
+        <name>$libelleFamille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="29" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get id</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="37" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a085efc4420825a298d47f48692331272" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setLibelleFamille</definition>
+        <argsstring>($libelleFamille)</argsstring>
+        <name>setLibelleFamille</name>
+        <param>
+          <declname>$libelleFamille</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set libelleFamille</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$libelleFamille</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>famille </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="48" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1afad83dbe78c0283084b7d8a3e905e59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLibelleFamille</definition>
+        <argsstring>()</argsstring>
+        <name>getLibelleFamille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get libelleFamille</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="60" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>famille</para><para>() (repositoryClass=&quot;CR\GSBRBundle\Entity\familleRepository&quot;) </para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" line="14" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/famille.php" bodystart="13" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1ae97941710d863131c700f069b109991e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::famille</scope><name>$id</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a5a257a9502045cd5c7fcb351921cb46b" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::famille</scope><name>$libelleFamille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::famille</scope><name>getId</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1afad83dbe78c0283084b7d8a3e905e59e" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::famille</scope><name>getLibelleFamille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille_1a085efc4420825a298d47f48692331272" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::famille</scope><name>setLibelleFamille</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

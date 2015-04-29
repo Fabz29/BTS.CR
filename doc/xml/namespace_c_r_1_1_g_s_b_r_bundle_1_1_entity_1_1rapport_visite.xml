@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1rapport_visite" kind="namespace" language="PHP">
+    <compoundname>CR::GSBRBundle::Entity::rapportVisite</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="1" column="1"/>
+  </compounddef>
+</doxygen>

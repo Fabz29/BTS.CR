@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_65b8488ddeb0c16f5c3da6fd562d83fa" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller</compoundname>
+    <innerfile refid="_default_controller_test_8php">DefaultControllerTest.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Tests/Controller/"/>
+  </compounddef>
+</doxygen>

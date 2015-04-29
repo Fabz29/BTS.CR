@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_c90fb0d14c6c7819ff64774dca30e201" kind="dir">
+    <compoundname>XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity</compoundname>
+    <innerfile refid="famille_8php">famille.php</innerfile>
+    <innerfile refid="famille_repository_8php">familleRepository.php</innerfile>
+    <innerfile refid="medicament_8php">medicament.php</innerfile>
+    <innerfile refid="medicament_repository_8php">medicamentRepository.php</innerfile>
+    <innerfile refid="praticien_8php">praticien.php</innerfile>
+    <innerfile refid="praticien_repository_8php">praticienRepository.php</innerfile>
+    <innerfile refid="rapport_visite_8php">rapportVisite.php</innerfile>
+    <innerfile refid="rapport_visite_repository_8php">rapportVisiteRepository.php</innerfile>
+    <innerfile refid="type_praticien_8php">typePraticien.php</innerfile>
+    <innerfile refid="type_praticien_repository_8php">typePraticienRepository.php</innerfile>
+    <innerfile refid="visiteur_8php">visiteur.php</innerfile>
+    <innerfile refid="visiteur_repository_8php">visiteurRepository.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/"/>
+  </compounddef>
+</doxygen>

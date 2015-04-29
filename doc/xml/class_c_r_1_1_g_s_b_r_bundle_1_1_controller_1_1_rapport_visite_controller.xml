@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Controller::RapportVisiteController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>indexAction</definition>
+        <argsstring>()</argsstring>
+        <name>indexAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction affiche la page rapport-de-visite <simplesect kind="return"><para>view La vue rapportVisite.html.twig </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="33" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a41dd2ddcb78a080e06000141a52a8f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ajouterAction</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>ajouterAction</name>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction ajoute un rapport de visite <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la saisie de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view la vue ajouterRapportVisite.html.twig </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="49" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" bodystart="49" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a46bf5852619bffc05272889356fd7f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>supprimerAction</definition>
+        <argsstring>($id, Request $request)</argsstring>
+        <name>supprimerAction</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction supprime un rapport de visite <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>identifiant </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la saisie de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view supprimer.html.twig La vue qui supprime le rapport de visite </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="88" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" bodystart="88" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a57147f9495534a299b833ef500766a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>modifierAction</definition>
+        <argsstring>($id, Request $request)</argsstring>
+        <name>modifierAction</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cette fonction modifie un rapport de visite <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>identifiant </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La requête construite à partir de la saisie de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>view modifier.html.twig La vue qui supprime le rapport de visite </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="124" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" bodystart="124" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe contrôleur de consultation et de gsetion des rapports de visite </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>RapportVisiteController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>RapportVisiteController</label>
+        <link refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" line="27" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Controller/RapportVisiteController.php" bodystart="27" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a41dd2ddcb78a080e06000141a52a8f21" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::RapportVisiteController</scope><name>ajouterAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a04f2101fe1cdc785b61219c2df753024" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::RapportVisiteController</scope><name>indexAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a57147f9495534a299b833ef500766a79" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::RapportVisiteController</scope><name>modifierAction</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_controller_1_1_rapport_visite_controller_1a46bf5852619bffc05272889356fd7f63" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Controller::RapportVisiteController</scope><name>supprimerAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

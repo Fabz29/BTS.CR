@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament" kind="class" language="PHP" prot="public">
+    <compoundname>CR::GSBRBundle::Entity::medicament</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae97941710d863131c700f069b109991e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$id</definition>
+        <argsstring></argsstring>
+        <name>$id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="22" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a5ada548896210f857afa712197dfcb9c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$depotLegal</definition>
+        <argsstring></argsstring>
+        <name>$depotLegal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="29" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a52546627b9b898df24e6852aebb39894" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$nomCommercial</definition>
+        <argsstring></argsstring>
+        <name>$nomCommercial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="36" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae796205d6fdbdc705dc5b03a53a8a81e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$composition</definition>
+        <argsstring></argsstring>
+        <name>$composition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="43" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9ce4da7b3cfdbd50b549e32ca799650c" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$effets</definition>
+        <argsstring></argsstring>
+        <name>$effets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="50" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad32d68a88128b50986701c8baf83bea4" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$contreIndication</definition>
+        <argsstring></argsstring>
+        <name>$contreIndication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="57" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a7bc562b9f32d8ce029eeb20377548e10" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$prixEchantillon</definition>
+        <argsstring></argsstring>
+        <name>$prixEchantillon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="64" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a47b3c1074fa2b61e2af60662f581a2" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$famille</definition>
+        <argsstring></argsstring>
+        <name>$famille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="71" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a12251d0c022e9e21c137a105ff683f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get id</para><para><simplesect kind="return"><para>integer </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="78" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a638639799a1989c5ac68cdd5e0c109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setDepotLegal</definition>
+        <argsstring>($depotLegal)</argsstring>
+        <name>setDepotLegal</name>
+        <param>
+          <declname>$depotLegal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set depotLegal</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$depotLegal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="88" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a42ec65ea7e62656a4de900a1d105a727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getDepotLegal</definition>
+        <argsstring>()</argsstring>
+        <name>getDepotLegal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get depotLegal</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="99" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ab09c38fc078240024d346208502e2356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setNomCommercial</definition>
+        <argsstring>($nomCommercial)</argsstring>
+        <name>setNomCommercial</name>
+        <param>
+          <declname>$nomCommercial</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set nomCommercial</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$nomCommercial</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="109" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a25ac56fb8d7ceb863c7551ebeaac6166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getNomCommercial</definition>
+        <argsstring>()</argsstring>
+        <name>getNomCommercial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get nomCommercial</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="120" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a878d2b8ea3342526423eccd446ca3115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setComposition</definition>
+        <argsstring>($composition)</argsstring>
+        <name>setComposition</name>
+        <param>
+          <declname>$composition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set composition</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$composition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="130" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ac1fbb5f7c107966f8f1df97ec6e7aacb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getComposition</definition>
+        <argsstring>()</argsstring>
+        <name>getComposition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get composition</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="141" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1adde84115849de05166b9ee912edb932b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setEffets</definition>
+        <argsstring>($effets)</argsstring>
+        <name>setEffets</name>
+        <param>
+          <declname>$effets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set effets</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$effets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="151" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1aaad3ec1237b3218e540f0da854f0debf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getEffets</definition>
+        <argsstring>()</argsstring>
+        <name>getEffets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get effets</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="162" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad1a5ca3765d6266b5ae706eabbd1ff2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setContreIndication</definition>
+        <argsstring>($contreIndication)</argsstring>
+        <name>setContreIndication</name>
+        <param>
+          <declname>$contreIndication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set contreIndication</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$contreIndication</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="172" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="172" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a21cf7250d8f140d2f1800b5f3a70ab6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getContreIndication</definition>
+        <argsstring>()</argsstring>
+        <name>getContreIndication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get contreIndication</para><para><simplesect kind="return"><para>string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="183" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a92d2143e6c469cdb6fdc38922bab2cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setPrixEchantillon</definition>
+        <argsstring>($prixEchantillon)</argsstring>
+        <name>setPrixEchantillon</name>
+        <param>
+          <declname>$prixEchantillon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set prixEchantillon</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>float</parametertype>
+<parametername>$prixEchantillon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="193" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1abb31f3d827cae12e08c8de935d680b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPrixEchantillon</definition>
+        <argsstring>()</argsstring>
+        <name>getPrixEchantillon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get prixEchantillon</para><para><simplesect kind="return"><para>float </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="204" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="204" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a8eb50092deb32a609f779c730279f620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setFamille</definition>
+        <argsstring>(\CR\GSBRBundle\Entity\famille $famille=null)</argsstring>
+        <name>setFamille</name>
+        <param>
+          <type>\<ref refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1famille" kindref="compound">CR\GSBRBundle\Entity\famille</ref></type>
+          <declname>$famille</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set famille</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>\CR\GSBRBundle\Entity\famille</parametertype>
+<parametername>$famille</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>medicament </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="214" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="214" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a58482364aa1e470a1fda8ec8ff7d3fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFamille</definition>
+        <argsstring>()</argsstring>
+        <name>getFamille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get famille</para><para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="225" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="225" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>medicament</para><para>() (repositoryClass=&quot;CR\GSBRBundle\Entity\medicamentRepository&quot;) </para>    </detaileddescription>
+    <location file="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" line="13" column="1" bodyfile="/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Entity/medicament.php" bodystart="13" bodyend="229"/>
+    <listofallmembers>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae796205d6fdbdc705dc5b03a53a8a81e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$composition</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad32d68a88128b50986701c8baf83bea4" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$contreIndication</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a5ada548896210f857afa712197dfcb9c" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$depotLegal</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9ce4da7b3cfdbd50b549e32ca799650c" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$effets</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a47b3c1074fa2b61e2af60662f581a2" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$famille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ae97941710d863131c700f069b109991e" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$id</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a52546627b9b898df24e6852aebb39894" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$nomCommercial</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a7bc562b9f32d8ce029eeb20377548e10" prot="private" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>$prixEchantillon</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ac1fbb5f7c107966f8f1df97ec6e7aacb" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getComposition</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a21cf7250d8f140d2f1800b5f3a70ab6d" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getContreIndication</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a42ec65ea7e62656a4de900a1d105a727" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getDepotLegal</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1aaad3ec1237b3218e540f0da854f0debf" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getEffets</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a58482364aa1e470a1fda8ec8ff7d3fdf" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getFamille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a12251d0c022e9e21c137a105ff683f13" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getId</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a25ac56fb8d7ceb863c7551ebeaac6166" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getNomCommercial</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1abb31f3d827cae12e08c8de935d680b65" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>getPrixEchantillon</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a878d2b8ea3342526423eccd446ca3115" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setComposition</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ad1a5ca3765d6266b5ae706eabbd1ff2b" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setContreIndication</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a9a638639799a1989c5ac68cdd5e0c109" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setDepotLegal</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1adde84115849de05166b9ee912edb932b" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setEffets</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a8eb50092deb32a609f779c730279f620" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setFamille</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1ab09c38fc078240024d346208502e2356" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setNomCommercial</name></member>
+      <member refid="class_c_r_1_1_g_s_b_r_bundle_1_1_entity_1_1medicament_1a92d2143e6c469cdb6fdc38922bab2cff" prot="public" virt="non-virtual"><scope>CR::GSBRBundle::Entity::medicament</scope><name>setPrixEchantillon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

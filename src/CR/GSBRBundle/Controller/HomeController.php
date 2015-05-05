@@ -61,9 +61,10 @@ class HomeController extends Controller {
      */
     public function profilAction(Request $request) {
 
-        $visiteur = $this->getUser();
+        $user = $this->getUser();
         // on vérifie que l'utilisateur est bien connécté
         $em = $this->getDoctrine()->getManager(); // récupère l'objet ORM Doctrine
+        $visiteur = $em->getRepository('CRGSBRBundle:visiteur')->find($user);
         // créer le formulaire 
         $form = $this->get('form.factory')->createBuilder('form', $visiteur)
                 ->add('nom', 'text')

@@ -41,41 +41,38 @@ class __TwigTemplate_86f59c0e9fcc45449db4fab7f7b217b38866376b73a1e4de55ef2f5a651
     <h3 class=\"text-center\">Médicaments</h3>
 
     <hr> 
-    
-    <table class=\"table table-striped\">
-        <thead>
-            <tr>
-                <th>Nom Commercial</th>
-                <th>Famille</th>
-            </tr>
-        </thead>
-
-
-        ";
-        // line 22
+    <div class=\"table-responsive\">
+        <table class=\"table table-striped\">
+            <thead>
+                <tr>
+                    <th>Nom Commercial</th>
+                    <th>Famille</th>
+                </tr>
+            </thead>
+            ";
+        // line 20
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["mesMed"]) ? $context["mesMed"] : $this->getContext($context, "mesMed")));
         foreach ($context['_seq'] as $context["_key"] => $context["m"]) {
-            // line 23
-            echo "            <tr>
-                <td class=\"text-primary\"><strong> ";
-            // line 24
+            // line 21
+            echo "                <tr>
+                    <td class=\"text-primary\"><strong> ";
+            // line 22
             echo twig_escape_filter($this->env, $this->getAttribute($context["m"], "getNomCommercial", array()), "html", null, true);
             echo "<strong></td>
-                <td> ";
-            // line 25
+                    <td> ";
+            // line 23
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["m"], "getFamille", array()), "getLibelleFamille", array()), "html", null, true);
             echo "</td>
-            </tr>
-        ";
+                </tr>
+            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['m'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 28
-        echo "
-    </table>
-
+        // line 26
+        echo "        </table>
+    </div>
 ";
     }
 
@@ -91,6 +88,6 @@ class __TwigTemplate_86f59c0e9fcc45449db4fab7f7b217b38866376b73a1e4de55ef2f5a651
 
     public function getDebugInfo()
     {
-        return array (  76 => 28,  67 => 25,  63 => 24,  60 => 23,  56 => 22,  40 => 8,  37 => 7,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  74 => 26,  65 => 23,  61 => 22,  58 => 21,  54 => 20,  40 => 8,  37 => 7,  32 => 4,  29 => 3,  11 => 1,);
     }
 }

@@ -9,23 +9,20 @@
     <h3 class="text-center">Médicaments</h3>
 
     <hr> 
-    
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Nom Commercial</th>
-                <th>Famille</th>
-            </tr>
-        </thead>
-
-
-        {% for m in mesMed %}
-            <tr>
-                <td class="text-primary"><strong> {{ m.getNomCommercial }}<strong></td>
-                <td> {{ m.getFamille.getLibelleFamille }}</td>
-            </tr>
-        {% endfor %}
-
-    </table>
-
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nom Commercial</th>
+                    <th>Famille</th>
+                </tr>
+            </thead>
+            {% for m in mesMed %}
+                <tr>
+                    <td class="text-primary"><strong> {{ m.getNomCommercial }}<strong></td>
+                    <td> {{ m.getFamille.getLibelleFamille }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
 {% endblock %}

@@ -121,6 +121,16 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'assetic.controller:render',  'name' => 'bootstrap_glyphicons_woff',  'pos' => 0,  '_format' => 'woff',  '_route' => '_assetic_bootstrap_glyphicons_woff_0',);
             }
 
+            // _assetic_bootstrap_glyphicons_woff2
+            if ($pathinfo === '/fonts/glyphicons-halflings-regular.woff2') {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => 'bootstrap_glyphicons_woff2',  'pos' => NULL,  '_format' => 'woff2',  '_route' => '_assetic_bootstrap_glyphicons_woff2',);
+            }
+
+            // _assetic_bootstrap_glyphicons_woff2_0
+            if ($pathinfo === '/fonts/glyphicons-halflings-regular_glyphicons-halflings-regular_1.woff2') {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => 'bootstrap_glyphicons_woff2',  'pos' => 0,  '_format' => 'woff2',  '_route' => '_assetic_bootstrap_glyphicons_woff2_0',);
+            }
+
         }
 
         if (0 === strpos($pathinfo, '/assetic/jquery')) {

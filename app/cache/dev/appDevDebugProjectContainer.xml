@@ -2493,7 +2493,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5540e0a7204b3</argument>
+            <argument>5541d34522b81</argument>
           </service>
         </argument>
         <argument type="service">
@@ -2675,7 +2675,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>5540e0a7204b3</argument>
+            <argument>5541d34522b81</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -3152,6 +3152,15 @@
                 <argument type="collection"/>
                 <argument type="collection">
                   <argument key="output">fonts/glyphicons-halflings-regular.woff</argument>
+                </argument>
+              </argument>
+              <argument key="bootstrap_glyphicons_woff2" type="collection">
+                <argument type="collection">
+                  <argument>/Applications/XAMPP/xamppfiles/htdocs/CR/app/../vendor/twitter/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2</argument>
+                </argument>
+                <argument type="collection"/>
+                <argument type="collection">
+                  <argument key="output">fonts/glyphicons-halflings-regular.woff2</argument>
                 </argument>
               </argument>
               <argument key="jquery" type="collection">

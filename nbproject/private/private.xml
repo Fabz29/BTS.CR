@@ -2,6 +2,10 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Resources/views/Medicament/medicament.html.twig</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Resources/views/RapportVisite/rapportVisite.html.twig</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/CR/src/CR/GSBRBundle/Resources/views/Praticien/praticien.html.twig</file>
+        </group>
     </open-files>
 </project-private>

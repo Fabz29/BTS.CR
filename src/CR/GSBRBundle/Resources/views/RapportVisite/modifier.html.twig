@@ -52,8 +52,12 @@
         </div>
     </div>
 
-
     <div class="text-center">
+        <a href="{{ path('crgsbr_rapportVisite_consulter', {'id': app.session.get('id')}) }}" class="btn btn-default">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Retour
+        </a>
+
         {# Pour le bouton, pas de label ni d'erreur, on affiche juste le widget #}
         {{ form_widget(form.Enregistrer, {'attr': {'class': 'btn btn-primary'}}) }}
     </div>

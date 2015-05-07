@@ -39,7 +39,7 @@ class __TwigTemplate_b509667d39f0b0357b9cff4b4423d9f1b23c9b972d8c1ac6ecad9a6ac99
     {
         // line 11
         echo "    ";
-        if (((isset($context["avance"]) ? $context["avance"] : null) == false)) {
+        if (((isset($context["avance"]) ? $context["avance"] : $this->getContext($context, "avance")) == false)) {
             // line 12
             echo "        <ul class=\"nav nav-tabs nav-justified\">
             <li role=\"presentation\" class=\"active\"><a href=\"";
@@ -68,7 +68,7 @@ class __TwigTemplate_b509667d39f0b0357b9cff4b4423d9f1b23c9b972d8c1ac6ecad9a6ac99
                         ";
             // line 27
             $context['_parent'] = (array) $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["mesTypes"]) ? $context["mesTypes"] : null));
+            $context['_seq'] = twig_ensure_traversable((isset($context["mesTypes"]) ? $context["mesTypes"] : $this->getContext($context, "mesTypes")));
             foreach ($context['_seq'] as $context["_key"] => $context["t"]) {
                 // line 28
                 echo "                            <option value=\"";
@@ -92,7 +92,7 @@ class __TwigTemplate_b509667d39f0b0357b9cff4b4423d9f1b23c9b972d8c1ac6ecad9a6ac99
 
     ";
         } elseif ((        // line 38
-(isset($context["avance"]) ? $context["avance"] : null) == true)) {
+(isset($context["avance"]) ? $context["avance"] : $this->getContext($context, "avance")) == true)) {
             // line 39
             echo "        <ul class=\"nav nav-tabs nav-justified\">
             <li role=\"presentation\"><a href=\"";
@@ -166,7 +166,7 @@ class __TwigTemplate_b509667d39f0b0357b9cff4b4423d9f1b23c9b972d8c1ac6ecad9a6ac99
                 ";
             // line 88
             $context['_parent'] = (array) $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["mesResultats"]) ? $context["mesResultats"] : null));
+            $context['_seq'] = twig_ensure_traversable((isset($context["mesResultats"]) ? $context["mesResultats"] : $this->getContext($context, "mesResultats")));
             foreach ($context['_seq'] as $context["_key"] => $context["r"]) {
                 // line 89
                 echo "                    <tr>

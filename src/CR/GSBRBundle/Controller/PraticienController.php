@@ -86,7 +86,7 @@ class PraticienController extends Controller {
             ));
 
             // retourne la vue avec les résultats et une variable qui indique que la recherche n'est pas avancée
-            return $this->render('CRGSBRBundle:praticien:recherchePraticien.html.twig', array(
+            return $this->render('CRGSBRBundle:Praticien:recherchePraticien.html.twig', array(
                         'mesTypes' => $lesTypes,
                         'mesResultats' => $res,
                         'avance' => false
@@ -135,7 +135,7 @@ class PraticienController extends Controller {
             }
 
             // on retourne la vue avec les résultats et on indique que la recherche est avancée
-            return $this->render('CRGSBRBundle:praticien:recherchePraticien.html.twig', array(
+            return $this->render('CRGSBRBundle:Praticien:recherchePraticien.html.twig', array(
                         'mesMedecin' => $lesMedecins,
                         'mesResultats' => $res,
                         'avance' => true,

@@ -46,21 +46,21 @@ class __TwigTemplate_b7e9d9734d16895ed1de58fa963cd666fa27a424fc055446a07e20f73b7
         <p>
             Etes-vous certain de vouloir supprimer le rapport numéro \"";
         // line 15
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["rapportVisite"]) ? $context["rapportVisite"] : null), "id", array()), "html", null, true);
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["rapportVisite"]) ? $context["rapportVisite"] : $this->getContext($context, "rapportVisite")), "id", array()), "html", null, true);
         echo "\" ?
         </p>
 
         ";
         // line 19
         echo "        <form action=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("crgsbr_rapportVisite_supprimer", array("id" => $this->getAttribute((isset($context["rapportVisite"]) ? $context["rapportVisite"] : null), "getId", array()))), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("crgsbr_rapportVisite_supprimer", array("id" => $this->getAttribute((isset($context["rapportVisite"]) ? $context["rapportVisite"] : $this->getContext($context, "rapportVisite")), "getId", array()))), "html", null, true);
         echo "\" method=\"post\">
 
             <br>
 
             <a href=\"";
         // line 23
-        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("crgsbr_rapportVisite_consulter", array("id" => $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : null), "session", array()), "get", array(0 => "id"), "method"))), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("crgsbr_rapportVisite_consulter", array("id" => $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session", array()), "get", array(0 => "id"), "method"))), "html", null, true);
         echo "\" class=\"btn btn-default\">
                 <i class=\"glyphicon glyphicon-chevron-left\"></i>
                 Retour
@@ -73,7 +73,7 @@ class __TwigTemplate_b7e9d9734d16895ed1de58fa963cd666fa27a424fc055446a07e20f73b7
             ";
         // line 32
         echo "            ";
-        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : null), 'rest');
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'rest');
         echo "
         </form>
     </div>

@@ -52,7 +52,7 @@ class __TwigTemplate_5daba761fad617feaeea0c7afa775144d7c0063996edcaf976e7d492cb4
                     ";
         // line 16
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["mesFamilles"]) ? $context["mesFamilles"] : null));
+        $context['_seq'] = twig_ensure_traversable((isset($context["mesFamilles"]) ? $context["mesFamilles"] : $this->getContext($context, "mesFamilles")));
         foreach ($context['_seq'] as $context["_key"] => $context["f"]) {
             // line 17
             echo "                        <option value=\"";
@@ -104,7 +104,7 @@ class __TwigTemplate_5daba761fad617feaeea0c7afa775144d7c0063996edcaf976e7d492cb4
                 ";
             // line 45
             $context['_parent'] = (array) $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["mesResultats"]) ? $context["mesResultats"] : null));
+            $context['_seq'] = twig_ensure_traversable((isset($context["mesResultats"]) ? $context["mesResultats"] : $this->getContext($context, "mesResultats")));
             foreach ($context['_seq'] as $context["_key"] => $context["r"]) {
                 // line 46
                 echo "                    <tr>

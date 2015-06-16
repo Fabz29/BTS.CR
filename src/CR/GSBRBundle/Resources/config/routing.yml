@@ -57,3 +57,7 @@ crgsbr_rapportVisite_modifier:
     defaults: { _controller: CRGSBRBundle:RapportVisite:modifier}
     requirements:
         id: \d+
+        
+crgsbr_stats:
+    path:   /statistiques
+    defaults: { _controller: CRGSBRBundle:Stats:index}

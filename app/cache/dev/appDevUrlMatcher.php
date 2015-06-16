@@ -398,6 +398,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // crgsbr_stats
+        if ($pathinfo === '/statistiques') {
+            return array (  '_controller' => 'CR\\GSBRBundle\\Controller\\StatsController::indexAction',  '_route' => 'crgsbr_stats',);
+        }
+
         // homepage
         if ($pathinfo === '/app/example') {
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
